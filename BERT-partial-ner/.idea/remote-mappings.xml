@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sshConfig://root@hz-t2.matpool.com:26448 password/root/miniconda3/envs/myconda/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/mnt/baseline" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://root@hz-t2.matpool.com:29003/root/miniconda3/envs/myconda/bin/python" />
+      </list>
+    </list>
+  </component>
+</project>

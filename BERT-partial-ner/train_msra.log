@@ -1,0 +1,1988 @@
+2020-04-27 23:27:06,268:INFO: mode: pre_train
+2020-04-27 23:27:06,268:INFO: device: cuda
+2020-04-27 23:27:06,269:INFO: seed: 2019
+2020-04-27 23:27:06,269:INFO: digit2zero: True
+2020-04-27 23:27:06,269:INFO: dataset: data
+2020-04-27 23:27:06,269:INFO: optimizer: adam
+2020-04-27 23:27:06,269:INFO: learning_rate: 0.0001
+2020-04-27 23:27:06,269:INFO: momentum: 0.0
+2020-04-27 23:27:06,269:INFO: l2: 1e-08
+2020-04-27 23:27:06,269:INFO: lr_decay: 0
+2020-04-27 23:27:06,269:INFO: batch_size: 32
+2020-04-27 23:27:06,269:INFO: num_epochs: 100
+2020-04-27 23:27:06,269:INFO: train_num: -1
+2020-04-27 23:27:06,269:INFO: dev_num: -1
+2020-04-27 23:27:06,269:INFO: num_outer_iterations: 10
+2020-04-27 23:27:06,269:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-27 23:27:06,269:INFO: max_len: 180
+2020-04-27 23:27:06,270:INFO: full_finetuning: True
+2020-04-27 23:27:06,270:INFO: clip_grad: 5
+2020-04-27 23:27:06,270:INFO: model_folder: saved_model
+2020-04-27 23:27:06,270:INFO: device_num: 0
+2020-04-27 23:27:06,270:INFO: 
+
+2020-04-27 23:27:06,270:INFO: Loading the datasets...
+2020-04-27 23:27:17,773:INFO: Building label idx ...
+2020-04-27 23:27:18,640:INFO: [Training Info] number of instances: 50658
+2020-04-27 23:27:28,355:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-27 23:27:28,356:INFO: [Training Info] Training fold pre_train.
+2020-04-27 23:27:28,356:INFO: Initialized from pre-trained Model
+2020-04-27 23:27:28,357:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-27 23:27:36,290:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-27 23:27:36,291:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-27 23:27:36,381:INFO: full finetuning
+2020-04-27 23:36:55,598:INFO: Epoch 1: 174.62133, Time is 559.21s
+2020-04-27 23:37:10,652:INFO: [dev set] Precision: 0.81, Recall: 1.52, F1: 1.05
+2020-04-27 23:37:10,652:INFO: saving the best model...
+2020-04-27 23:47:09,232:INFO: Epoch 2: 98.09586, Time is 560.91s
+2020-04-27 23:47:24,268:INFO: [dev set] Precision: 0.77, Recall: 1.45, F1: 1.01
+2020-04-27 23:52:23,600:INFO: mode: pre_train
+2020-04-27 23:52:23,607:INFO: device: cuda
+2020-04-27 23:52:23,608:INFO: seed: 2019
+2020-04-27 23:52:23,608:INFO: digit2zero: True
+2020-04-27 23:52:23,608:INFO: dataset: data
+2020-04-27 23:52:23,608:INFO: optimizer: adam
+2020-04-27 23:52:23,608:INFO: learning_rate: 0.0001
+2020-04-27 23:52:23,608:INFO: momentum: 0.0
+2020-04-27 23:52:23,609:INFO: l2: 1e-08
+2020-04-27 23:52:23,609:INFO: lr_decay: 0
+2020-04-27 23:52:23,609:INFO: batch_size: 32
+2020-04-27 23:52:23,609:INFO: num_epochs: 100
+2020-04-27 23:52:23,609:INFO: train_num: -1
+2020-04-27 23:52:23,609:INFO: dev_num: -1
+2020-04-27 23:52:23,609:INFO: num_outer_iterations: 10
+2020-04-27 23:52:23,609:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-27 23:52:23,610:INFO: max_len: 180
+2020-04-27 23:52:23,610:INFO: full_finetuning: True
+2020-04-27 23:52:23,610:INFO: clip_grad: 5
+2020-04-27 23:52:23,610:INFO: model_folder: saved_model
+2020-04-27 23:52:23,610:INFO: device_num: 0
+2020-04-27 23:52:23,610:INFO: 
+
+2020-04-27 23:52:23,610:INFO: Loading the datasets...
+2020-04-27 23:52:35,205:INFO: Building label idx ...
+2020-04-27 23:52:36,063:INFO: [Training Info] number of instances: 50658
+2020-04-27 23:52:45,905:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-27 23:52:45,905:INFO: [Training Info] Training fold pre_train.
+2020-04-27 23:52:45,905:INFO: Initialized from pre-trained Model
+2020-04-27 23:52:45,906:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-27 23:52:52,635:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-27 23:52:52,635:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-27 23:52:52,745:INFO: full finetuning
+2020-04-27 23:55:41,122:INFO: mode: pre_train
+2020-04-27 23:55:41,129:INFO: device: cuda
+2020-04-27 23:55:41,130:INFO: seed: 2019
+2020-04-27 23:55:41,130:INFO: digit2zero: True
+2020-04-27 23:55:41,130:INFO: dataset: data
+2020-04-27 23:55:41,131:INFO: optimizer: adam
+2020-04-27 23:55:41,131:INFO: learning_rate: 0.0001
+2020-04-27 23:55:41,131:INFO: momentum: 0.0
+2020-04-27 23:55:41,131:INFO: l2: 1e-08
+2020-04-27 23:55:41,132:INFO: lr_decay: 0
+2020-04-27 23:55:41,132:INFO: batch_size: 32
+2020-04-27 23:55:41,132:INFO: num_epochs: 100
+2020-04-27 23:55:41,132:INFO: train_num: -1
+2020-04-27 23:55:41,132:INFO: dev_num: -1
+2020-04-27 23:55:41,132:INFO: num_outer_iterations: 10
+2020-04-27 23:55:41,133:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-27 23:55:41,133:INFO: max_len: 180
+2020-04-27 23:55:41,133:INFO: full_finetuning: True
+2020-04-27 23:55:41,133:INFO: clip_grad: 5
+2020-04-27 23:55:41,133:INFO: model_folder: saved_model
+2020-04-27 23:55:41,133:INFO: device_num: 0
+2020-04-27 23:55:41,134:INFO: 
+
+2020-04-27 23:55:41,134:INFO: Loading the datasets...
+2020-04-27 23:56:40,126:INFO: Building label idx ...
+2020-04-27 23:56:41,890:INFO: [Training Info] number of instances: 50658
+2020-04-27 23:57:08,209:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-27 23:57:08,209:INFO: [Training Info] Training fold pre_train.
+2020-04-27 23:57:08,209:INFO: Initialized from pre-trained Model
+2020-04-27 23:57:08,211:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-27 23:57:16,480:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-27 23:57:16,480:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-27 23:57:16,589:INFO: full finetuning
+2020-04-27 23:59:07,134:INFO: mode: pre_train
+2020-04-27 23:59:07,146:INFO: device: cuda
+2020-04-27 23:59:07,146:INFO: seed: 2019
+2020-04-27 23:59:07,147:INFO: digit2zero: True
+2020-04-27 23:59:07,147:INFO: dataset: data
+2020-04-27 23:59:07,147:INFO: optimizer: adam
+2020-04-27 23:59:07,148:INFO: learning_rate: 0.0001
+2020-04-27 23:59:07,148:INFO: momentum: 0.0
+2020-04-27 23:59:07,148:INFO: l2: 1e-08
+2020-04-27 23:59:07,148:INFO: lr_decay: 0
+2020-04-27 23:59:07,149:INFO: batch_size: 32
+2020-04-27 23:59:07,149:INFO: num_epochs: 100
+2020-04-27 23:59:07,149:INFO: train_num: -1
+2020-04-27 23:59:07,149:INFO: dev_num: -1
+2020-04-27 23:59:07,150:INFO: num_outer_iterations: 10
+2020-04-27 23:59:07,150:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-27 23:59:07,150:INFO: max_len: 180
+2020-04-27 23:59:07,150:INFO: full_finetuning: True
+2020-04-27 23:59:07,151:INFO: clip_grad: 5
+2020-04-27 23:59:07,151:INFO: model_folder: saved_model
+2020-04-27 23:59:07,151:INFO: device_num: 0
+2020-04-27 23:59:07,151:INFO: 
+
+2020-04-27 23:59:07,152:INFO: Loading the datasets...
+2020-04-27 23:59:07,196:INFO: Building label idx ...
+2020-04-27 23:59:07,198:INFO: [Training Info] number of instances: 12
+2020-04-27 23:59:11,131:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-27 23:59:11,132:INFO: [Training Info] Training fold pre_train.
+2020-04-27 23:59:11,132:INFO: Initialized from pre-trained Model
+2020-04-27 23:59:11,134:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-27 23:59:17,970:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-27 23:59:17,971:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-27 23:59:18,066:INFO: full finetuning
+2020-04-27 23:59:18,432:INFO: Epoch 1: 2.96511, Time is 0.31s
+2020-04-28 00:15:12,935:INFO: mode: pre_train
+2020-04-28 00:15:12,936:INFO: device: cuda
+2020-04-28 00:15:12,936:INFO: seed: 2019
+2020-04-28 00:15:12,936:INFO: digit2zero: True
+2020-04-28 00:15:12,936:INFO: dataset: data
+2020-04-28 00:15:12,936:INFO: optimizer: adam
+2020-04-28 00:15:12,936:INFO: learning_rate: 0.0001
+2020-04-28 00:15:12,936:INFO: momentum: 0.0
+2020-04-28 00:15:12,937:INFO: l2: 1e-08
+2020-04-28 00:15:12,937:INFO: lr_decay: 0
+2020-04-28 00:15:12,937:INFO: batch_size: 32
+2020-04-28 00:15:12,937:INFO: num_epochs: 100
+2020-04-28 00:15:12,937:INFO: train_num: -1
+2020-04-28 00:15:12,937:INFO: dev_num: -1
+2020-04-28 00:15:12,937:INFO: num_outer_iterations: 10
+2020-04-28 00:15:12,937:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 00:15:12,937:INFO: max_len: 180
+2020-04-28 00:15:12,937:INFO: full_finetuning: True
+2020-04-28 00:15:12,937:INFO: clip_grad: 5
+2020-04-28 00:15:12,937:INFO: model_folder: saved_model
+2020-04-28 00:15:12,938:INFO: device_num: 0
+2020-04-28 00:15:12,938:INFO: 
+
+2020-04-28 00:15:12,938:INFO: Loading the datasets...
+2020-04-28 00:15:12,945:INFO: Building label idx ...
+2020-04-28 00:15:12,946:INFO: [Training Info] number of instances: 12
+2020-04-28 00:15:15,678:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 00:15:15,678:INFO: [Training Info] Training fold pre_train.
+2020-04-28 00:15:15,678:INFO: Initialized from pre-trained Model
+2020-04-28 00:15:15,680:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 00:15:21,569:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 00:15:21,570:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 00:15:21,620:INFO: full finetuning
+2020-04-28 00:15:21,810:INFO: Epoch 1: 2.96511, Time is 0.19s
+2020-04-28 00:15:21,856:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:21,856:INFO: saving the best model...
+2020-04-28 00:15:34,843:INFO: Epoch 2: 0.63645, Time is 0.18s
+2020-04-28 00:15:34,891:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:35,056:INFO: Epoch 3: 0.34030, Time is 0.16s
+2020-04-28 00:15:35,104:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:35,269:INFO: Epoch 4: 0.33146, Time is 0.16s
+2020-04-28 00:15:35,316:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:35,480:INFO: Epoch 5: 0.30868, Time is 0.16s
+2020-04-28 00:15:35,528:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:35,692:INFO: Epoch 6: 0.29929, Time is 0.16s
+2020-04-28 00:15:35,740:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:35,903:INFO: Epoch 7: 0.27464, Time is 0.16s
+2020-04-28 00:15:35,952:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:36,115:INFO: Epoch 8: 0.25416, Time is 0.16s
+2020-04-28 00:15:36,163:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:36,326:INFO: Epoch 9: 0.24520, Time is 0.16s
+2020-04-28 00:15:36,374:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:36,537:INFO: Epoch 10: 0.23146, Time is 0.16s
+2020-04-28 00:15:36,585:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:36,749:INFO: Epoch 11: 0.21494, Time is 0.16s
+2020-04-28 00:15:36,797:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:36,960:INFO: Epoch 12: 0.21640, Time is 0.16s
+2020-04-28 00:15:37,009:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:37,172:INFO: Epoch 13: 0.22761, Time is 0.16s
+2020-04-28 00:15:37,220:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:37,383:INFO: Epoch 14: 0.19844, Time is 0.16s
+2020-04-28 00:15:37,432:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:37,595:INFO: Epoch 15: 0.18651, Time is 0.16s
+2020-04-28 00:15:37,643:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:37,807:INFO: Epoch 16: 0.17606, Time is 0.16s
+2020-04-28 00:15:37,856:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:38,020:INFO: Epoch 17: 0.16700, Time is 0.16s
+2020-04-28 00:15:38,068:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:38,232:INFO: Epoch 18: 0.17046, Time is 0.16s
+2020-04-28 00:15:38,280:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:38,444:INFO: Epoch 19: 0.15882, Time is 0.16s
+2020-04-28 00:15:38,492:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:38,656:INFO: Epoch 20: 0.15022, Time is 0.16s
+2020-04-28 00:15:38,704:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:38,867:INFO: Epoch 21: 0.15354, Time is 0.16s
+2020-04-28 00:15:38,916:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:39,079:INFO: Epoch 22: 0.14069, Time is 0.16s
+2020-04-28 00:15:39,128:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:39,291:INFO: Epoch 23: 0.13287, Time is 0.16s
+2020-04-28 00:15:39,339:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:39,503:INFO: Epoch 24: 0.12086, Time is 0.16s
+2020-04-28 00:15:39,551:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:39,714:INFO: Epoch 25: 0.12014, Time is 0.16s
+2020-04-28 00:15:39,762:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:15:39,925:INFO: Epoch 26: 0.11851, Time is 0.16s
+2020-04-28 00:15:39,974:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:07,589:INFO: mode: pre_train
+2020-04-28 00:16:07,595:INFO: device: cuda
+2020-04-28 00:16:07,596:INFO: seed: 2019
+2020-04-28 00:16:07,596:INFO: digit2zero: True
+2020-04-28 00:16:07,597:INFO: dataset: data
+2020-04-28 00:16:07,597:INFO: optimizer: adam
+2020-04-28 00:16:07,598:INFO: learning_rate: 0.0001
+2020-04-28 00:16:07,598:INFO: momentum: 0.0
+2020-04-28 00:16:07,598:INFO: l2: 1e-08
+2020-04-28 00:16:07,599:INFO: lr_decay: 0
+2020-04-28 00:16:07,599:INFO: batch_size: 32
+2020-04-28 00:16:07,599:INFO: num_epochs: 100
+2020-04-28 00:16:07,599:INFO: train_num: -1
+2020-04-28 00:16:07,600:INFO: dev_num: -1
+2020-04-28 00:16:07,600:INFO: num_outer_iterations: 10
+2020-04-28 00:16:07,600:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 00:16:07,600:INFO: max_len: 180
+2020-04-28 00:16:07,600:INFO: full_finetuning: True
+2020-04-28 00:16:07,600:INFO: clip_grad: 5
+2020-04-28 00:16:07,601:INFO: model_folder: saved_model
+2020-04-28 00:16:07,601:INFO: device_num: 0
+2020-04-28 00:16:07,601:INFO: 
+
+2020-04-28 00:16:07,601:INFO: Loading the datasets...
+2020-04-28 00:16:07,609:INFO: Building label idx ...
+2020-04-28 00:16:07,609:INFO: [Training Info] number of instances: 12
+2020-04-28 00:16:10,230:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 00:16:10,231:INFO: [Training Info] Training fold pre_train.
+2020-04-28 00:16:10,231:INFO: Initialized from pre-trained Model
+2020-04-28 00:16:10,232:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 00:16:16,331:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 00:16:16,332:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 00:16:16,383:INFO: full finetuning
+2020-04-28 00:16:16,579:INFO: Epoch 1: 2.96511, Time is 0.19s
+2020-04-28 00:16:16,626:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:16,626:INFO: saving the best model...
+2020-04-28 00:16:29,737:INFO: Epoch 2: 0.63645, Time is 0.20s
+2020-04-28 00:16:29,794:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:29,964:INFO: Epoch 3: 0.34030, Time is 0.17s
+2020-04-28 00:16:30,012:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:30,182:INFO: Epoch 4: 0.33146, Time is 0.17s
+2020-04-28 00:16:30,228:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:30,392:INFO: Epoch 5: 0.30868, Time is 0.16s
+2020-04-28 00:16:30,440:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:30,605:INFO: Epoch 6: 0.29929, Time is 0.16s
+2020-04-28 00:16:30,653:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:30,816:INFO: Epoch 7: 0.27464, Time is 0.16s
+2020-04-28 00:16:30,865:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:31,028:INFO: Epoch 8: 0.25416, Time is 0.16s
+2020-04-28 00:16:31,076:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:31,240:INFO: Epoch 9: 0.24520, Time is 0.16s
+2020-04-28 00:16:31,288:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:31,451:INFO: Epoch 10: 0.23146, Time is 0.16s
+2020-04-28 00:16:31,500:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:31,665:INFO: Epoch 11: 0.21494, Time is 0.16s
+2020-04-28 00:16:31,712:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:31,875:INFO: Epoch 12: 0.21640, Time is 0.16s
+2020-04-28 00:16:31,924:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:32,087:INFO: Epoch 13: 0.22761, Time is 0.16s
+2020-04-28 00:16:32,135:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:32,298:INFO: Epoch 14: 0.19844, Time is 0.16s
+2020-04-28 00:16:32,346:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:32,510:INFO: Epoch 15: 0.18651, Time is 0.16s
+2020-04-28 00:16:32,558:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:32,721:INFO: Epoch 16: 0.17606, Time is 0.16s
+2020-04-28 00:16:32,770:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:32,933:INFO: Epoch 17: 0.16700, Time is 0.16s
+2020-04-28 00:16:32,981:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:33,145:INFO: Epoch 18: 0.17046, Time is 0.16s
+2020-04-28 00:16:33,193:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:33,357:INFO: Epoch 19: 0.15882, Time is 0.16s
+2020-04-28 00:16:33,405:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:33,569:INFO: Epoch 20: 0.15022, Time is 0.16s
+2020-04-28 00:16:33,617:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:33,781:INFO: Epoch 21: 0.15354, Time is 0.16s
+2020-04-28 00:16:33,829:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:33,992:INFO: Epoch 22: 0.14069, Time is 0.16s
+2020-04-28 00:16:34,041:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:34,204:INFO: Epoch 23: 0.13287, Time is 0.16s
+2020-04-28 00:16:34,252:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:34,416:INFO: Epoch 24: 0.12086, Time is 0.16s
+2020-04-28 00:16:34,464:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:34,627:INFO: Epoch 25: 0.12014, Time is 0.16s
+2020-04-28 00:16:34,676:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:34,839:INFO: Epoch 26: 0.11851, Time is 0.16s
+2020-04-28 00:16:34,888:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:35,051:INFO: Epoch 27: 0.11847, Time is 0.16s
+2020-04-28 00:16:35,100:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:35,264:INFO: Epoch 28: 0.11536, Time is 0.16s
+2020-04-28 00:16:35,312:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:35,478:INFO: Epoch 29: 0.15389, Time is 0.16s
+2020-04-28 00:16:35,526:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:35,689:INFO: Epoch 30: 0.11173, Time is 0.16s
+2020-04-28 00:16:35,738:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:35,901:INFO: Epoch 31: 0.11404, Time is 0.16s
+2020-04-28 00:16:35,949:INFO: [dev set] Precision: 0.00, Recall: 0.00, F1: 0.00
+2020-04-28 00:16:36,113:INFO: Epoch 32: 0.11737, Time is 0.16s
+2020-04-28 00:16:36,161:INFO: [dev set] Precision: 3.85, Recall: 9.09, F1: 5.41
+2020-04-28 00:16:36,161:INFO: saving the best model...
+2020-04-28 00:21:47,732:INFO: mode: pre_train
+2020-04-28 00:21:47,741:INFO: device: cuda
+2020-04-28 00:21:47,741:INFO: seed: 2019
+2020-04-28 00:21:47,742:INFO: digit2zero: True
+2020-04-28 00:21:47,742:INFO: dataset: data
+2020-04-28 00:21:47,742:INFO: optimizer: adam
+2020-04-28 00:21:47,742:INFO: learning_rate: 0.0001
+2020-04-28 00:21:47,742:INFO: momentum: 0.0
+2020-04-28 00:21:47,742:INFO: l2: 1e-08
+2020-04-28 00:21:47,743:INFO: lr_decay: 0
+2020-04-28 00:21:47,743:INFO: batch_size: 32
+2020-04-28 00:21:47,743:INFO: num_epochs: 100
+2020-04-28 00:21:47,743:INFO: train_num: -1
+2020-04-28 00:21:47,743:INFO: dev_num: -1
+2020-04-28 00:21:47,743:INFO: num_outer_iterations: 10
+2020-04-28 00:21:47,743:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 00:21:47,743:INFO: max_len: 180
+2020-04-28 00:21:47,743:INFO: full_finetuning: True
+2020-04-28 00:21:47,743:INFO: clip_grad: 5
+2020-04-28 00:21:47,743:INFO: model_folder: saved_model
+2020-04-28 00:21:47,743:INFO: device_num: 0
+2020-04-28 00:21:47,743:INFO: 
+
+2020-04-28 00:21:47,743:INFO: Loading the datasets...
+2020-04-28 00:21:54,963:INFO: Building label idx ...
+2020-04-28 00:21:55,510:INFO: [Training Info] number of instances: 50658
+2020-04-28 00:22:01,885:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 00:22:01,886:INFO: [Training Info] Training fold pre_train.
+2020-04-28 00:22:01,886:INFO: Initialized from pre-trained Model
+2020-04-28 00:22:01,890:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 00:22:08,434:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 00:22:08,434:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 00:22:08,484:INFO: full finetuning
+2020-04-28 00:31:10,226:INFO: Epoch 1: 174.62133, Time is 541.74s
+2020-04-28 00:31:25,143:INFO: [dev set] Precision: 0.81, Recall: 1.52, F1: 1.05
+2020-04-28 00:31:25,143:INFO: saving the best model...
+2020-04-28 08:38:41,492:INFO: mode: pre_train
+2020-04-28 08:38:41,507:INFO: device: cuda
+2020-04-28 08:38:41,508:INFO: seed: 2019
+2020-04-28 08:38:41,508:INFO: digit2zero: True
+2020-04-28 08:38:41,508:INFO: dataset: data
+2020-04-28 08:38:41,508:INFO: optimizer: adam
+2020-04-28 08:38:41,509:INFO: learning_rate: 0.0001
+2020-04-28 08:38:41,509:INFO: momentum: 0.0
+2020-04-28 08:38:41,509:INFO: l2: 1e-08
+2020-04-28 08:38:41,509:INFO: lr_decay: 0
+2020-04-28 08:38:41,509:INFO: batch_size: 32
+2020-04-28 08:38:41,510:INFO: num_epochs: 100
+2020-04-28 08:38:41,510:INFO: train_num: -1
+2020-04-28 08:38:41,510:INFO: dev_num: -1
+2020-04-28 08:38:41,510:INFO: num_outer_iterations: 10
+2020-04-28 08:38:41,510:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 08:38:41,511:INFO: max_len: 180
+2020-04-28 08:38:41,511:INFO: full_finetuning: True
+2020-04-28 08:38:41,511:INFO: clip_grad: 5
+2020-04-28 08:38:41,511:INFO: model_folder: saved_model
+2020-04-28 08:38:41,511:INFO: device_num: 0
+2020-04-28 08:38:41,511:INFO: 
+
+2020-04-28 08:38:41,512:INFO: Loading the datasets...
+2020-04-28 08:38:46,963:INFO: Building label idx ...
+2020-04-28 08:38:47,132:INFO: [Training Info] number of instances: 4631
+2020-04-28 08:38:51,960:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 08:38:51,960:INFO: [Training Info] Training fold pre_train.
+2020-04-28 08:38:51,961:INFO: Initialized from pre-trained Model
+2020-04-28 08:38:51,963:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 08:40:41,837:INFO: mode: pre_train
+2020-04-28 08:40:41,848:INFO: device: cuda
+2020-04-28 08:40:41,848:INFO: seed: 2019
+2020-04-28 08:40:41,848:INFO: digit2zero: True
+2020-04-28 08:40:41,849:INFO: dataset: data
+2020-04-28 08:40:41,849:INFO: optimizer: adam
+2020-04-28 08:40:41,849:INFO: learning_rate: 0.0001
+2020-04-28 08:40:41,849:INFO: momentum: 0.0
+2020-04-28 08:40:41,849:INFO: l2: 1e-08
+2020-04-28 08:40:41,850:INFO: lr_decay: 0
+2020-04-28 08:40:41,850:INFO: batch_size: 32
+2020-04-28 08:40:41,850:INFO: num_epochs: 100
+2020-04-28 08:40:41,850:INFO: train_num: -1
+2020-04-28 08:40:41,850:INFO: dev_num: -1
+2020-04-28 08:40:41,851:INFO: num_outer_iterations: 10
+2020-04-28 08:40:41,851:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 08:40:41,851:INFO: max_len: 180
+2020-04-28 08:40:41,851:INFO: full_finetuning: True
+2020-04-28 08:40:41,851:INFO: clip_grad: 5
+2020-04-28 08:40:41,851:INFO: model_folder: saved_model
+2020-04-28 08:40:41,852:INFO: device_num: 0
+2020-04-28 08:40:41,852:INFO: 
+
+2020-04-28 08:40:41,852:INFO: Loading the datasets...
+2020-04-28 08:40:47,320:INFO: Building label idx ...
+2020-04-28 08:40:47,489:INFO: [Training Info] number of instances: 4631
+2020-04-28 08:40:52,373:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 08:40:52,373:INFO: [Training Info] Training fold pre_train.
+2020-04-28 08:40:52,373:INFO: Initialized from pre-trained Model
+2020-04-28 08:40:52,376:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 08:41:49,532:INFO: mode: pre_train
+2020-04-28 08:41:49,532:INFO: device: cuda
+2020-04-28 08:41:49,532:INFO: seed: 2019
+2020-04-28 08:41:49,532:INFO: digit2zero: True
+2020-04-28 08:41:49,532:INFO: dataset: data
+2020-04-28 08:41:49,532:INFO: optimizer: adam
+2020-04-28 08:41:49,532:INFO: learning_rate: 0.0001
+2020-04-28 08:41:49,533:INFO: momentum: 0.0
+2020-04-28 08:41:49,533:INFO: l2: 1e-08
+2020-04-28 08:41:49,533:INFO: lr_decay: 0
+2020-04-28 08:41:49,533:INFO: batch_size: 32
+2020-04-28 08:41:49,533:INFO: num_epochs: 100
+2020-04-28 08:41:49,533:INFO: train_num: -1
+2020-04-28 08:41:49,533:INFO: dev_num: -1
+2020-04-28 08:41:49,533:INFO: num_outer_iterations: 10
+2020-04-28 08:41:49,533:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 08:41:49,533:INFO: max_len: 180
+2020-04-28 08:41:49,533:INFO: full_finetuning: True
+2020-04-28 08:41:49,533:INFO: clip_grad: 5
+2020-04-28 08:41:49,533:INFO: model_folder: saved_model
+2020-04-28 08:41:49,533:INFO: device_num: 0
+2020-04-28 08:41:49,533:INFO: 
+
+2020-04-28 08:41:49,533:INFO: Loading the datasets...
+2020-04-28 08:41:50,640:INFO: Building label idx ...
+2020-04-28 08:41:50,718:INFO: [Training Info] number of instances: 4631
+2020-04-28 08:41:53,945:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 08:41:53,945:INFO: [Training Info] Training fold pre_train.
+2020-04-28 08:41:53,945:INFO: Initialized from pre-trained Model
+2020-04-28 08:41:53,946:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 09:00:13,879:INFO: mode: pre_train
+2020-04-28 09:00:13,887:INFO: device: cuda
+2020-04-28 09:00:13,887:INFO: seed: 2019
+2020-04-28 09:00:13,888:INFO: digit2zero: True
+2020-04-28 09:00:13,888:INFO: dataset: data
+2020-04-28 09:00:13,888:INFO: optimizer: adam
+2020-04-28 09:00:13,889:INFO: learning_rate: 0.0001
+2020-04-28 09:00:13,889:INFO: momentum: 0.0
+2020-04-28 09:00:13,890:INFO: l2: 1e-08
+2020-04-28 09:00:13,890:INFO: lr_decay: 0
+2020-04-28 09:00:13,890:INFO: batch_size: 32
+2020-04-28 09:00:13,891:INFO: num_epochs: 100
+2020-04-28 09:00:13,891:INFO: train_num: -1
+2020-04-28 09:00:13,891:INFO: dev_num: -1
+2020-04-28 09:00:13,892:INFO: num_outer_iterations: 10
+2020-04-28 09:00:13,892:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 09:00:13,892:INFO: max_len: 180
+2020-04-28 09:00:13,893:INFO: full_finetuning: True
+2020-04-28 09:00:13,893:INFO: clip_grad: 5
+2020-04-28 09:00:13,893:INFO: model_folder: saved_model
+2020-04-28 09:00:13,893:INFO: device_num: 0
+2020-04-28 09:00:13,893:INFO: 
+
+2020-04-28 09:00:13,894:INFO: Loading the datasets...
+2020-04-28 09:00:14,965:INFO: Building label idx ...
+2020-04-28 09:00:15,041:INFO: [Training Info] number of instances: 4631
+2020-04-28 09:00:18,111:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 09:00:18,112:INFO: [Training Info] Training fold pre_train.
+2020-04-28 09:00:18,112:INFO: Initialized from pre-trained Model
+2020-04-28 09:00:18,114:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 09:17:02,783:INFO: mode: pre_train
+2020-04-28 09:17:02,794:INFO: device: cuda
+2020-04-28 09:17:02,794:INFO: seed: 2019
+2020-04-28 09:17:02,795:INFO: digit2zero: True
+2020-04-28 09:17:02,795:INFO: dataset: data
+2020-04-28 09:17:02,796:INFO: optimizer: adam
+2020-04-28 09:17:02,796:INFO: learning_rate: 0.0001
+2020-04-28 09:17:02,796:INFO: momentum: 0.0
+2020-04-28 09:17:02,797:INFO: l2: 1e-08
+2020-04-28 09:17:02,797:INFO: lr_decay: 0
+2020-04-28 09:17:02,797:INFO: batch_size: 32
+2020-04-28 09:17:02,798:INFO: num_epochs: 100
+2020-04-28 09:17:02,798:INFO: train_num: -1
+2020-04-28 09:17:02,798:INFO: dev_num: -1
+2020-04-28 09:17:02,799:INFO: num_outer_iterations: 10
+2020-04-28 09:17:02,799:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 09:17:02,799:INFO: max_len: 180
+2020-04-28 09:17:02,800:INFO: full_finetuning: True
+2020-04-28 09:17:02,800:INFO: clip_grad: 5
+2020-04-28 09:17:02,800:INFO: model_folder: saved_model
+2020-04-28 09:17:02,800:INFO: device_num: 0
+2020-04-28 09:17:02,801:INFO: 
+
+2020-04-28 09:17:02,801:INFO: Loading the datasets...
+2020-04-28 09:17:03,833:INFO: Building label idx ...
+2020-04-28 09:17:03,906:INFO: [Training Info] number of instances: 4631
+2020-04-28 09:17:06,994:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 09:17:06,994:INFO: [Training Info] Training fold pre_train.
+2020-04-28 09:17:06,994:INFO: Initialized from pre-trained Model
+2020-04-28 09:17:07,007:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 09:17:22,493:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 09:17:22,496:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 09:17:22,552:INFO: full finetuning
+2020-04-28 09:18:03,424:INFO: mode: pre_train
+2020-04-28 09:18:03,438:INFO: device: cuda
+2020-04-28 09:18:03,438:INFO: seed: 2019
+2020-04-28 09:18:03,438:INFO: digit2zero: True
+2020-04-28 09:18:03,438:INFO: dataset: data
+2020-04-28 09:18:03,439:INFO: optimizer: adam
+2020-04-28 09:18:03,439:INFO: learning_rate: 0.0001
+2020-04-28 09:18:03,439:INFO: momentum: 0.0
+2020-04-28 09:18:03,439:INFO: l2: 1e-08
+2020-04-28 09:18:03,440:INFO: lr_decay: 0
+2020-04-28 09:18:03,440:INFO: batch_size: 32
+2020-04-28 09:18:03,440:INFO: num_epochs: 100
+2020-04-28 09:18:03,440:INFO: train_num: -1
+2020-04-28 09:18:03,441:INFO: dev_num: -1
+2020-04-28 09:18:03,441:INFO: num_outer_iterations: 10
+2020-04-28 09:18:03,441:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 09:18:03,441:INFO: max_len: 180
+2020-04-28 09:18:03,441:INFO: full_finetuning: True
+2020-04-28 09:18:03,442:INFO: clip_grad: 5
+2020-04-28 09:18:03,442:INFO: model_folder: saved_model
+2020-04-28 09:18:03,442:INFO: device_num: 0
+2020-04-28 09:18:03,442:INFO: 
+
+2020-04-28 09:18:03,442:INFO: Loading the datasets...
+2020-04-28 09:18:08,966:INFO: Building label idx ...
+2020-04-28 09:18:09,125:INFO: [Training Info] number of instances: 4631
+2020-04-28 09:18:13,788:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 09:18:13,788:INFO: [Training Info] Training fold pre_train.
+2020-04-28 09:18:13,789:INFO: Initialized from pre-trained Model
+2020-04-28 09:18:13,791:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 09:18:21,522:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 09:18:21,522:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 09:18:21,599:INFO: full finetuning
+2020-04-28 09:19:17,372:INFO: Epoch 1: 51.44766, Time is 55.74s
+2020-04-28 09:23:04,183:INFO: mode: pre_train
+2020-04-28 09:23:04,191:INFO: device: cuda
+2020-04-28 09:23:04,192:INFO: seed: 2019
+2020-04-28 09:23:04,192:INFO: digit2zero: True
+2020-04-28 09:23:04,193:INFO: dataset: data
+2020-04-28 09:23:04,193:INFO: optimizer: adam
+2020-04-28 09:23:04,194:INFO: learning_rate: 0.0001
+2020-04-28 09:23:04,194:INFO: momentum: 0.0
+2020-04-28 09:23:04,195:INFO: l2: 1e-08
+2020-04-28 09:23:04,195:INFO: lr_decay: 0
+2020-04-28 09:23:04,196:INFO: batch_size: 32
+2020-04-28 09:23:04,196:INFO: num_epochs: 100
+2020-04-28 09:23:04,197:INFO: train_num: -1
+2020-04-28 09:23:04,197:INFO: dev_num: -1
+2020-04-28 09:23:04,197:INFO: num_outer_iterations: 10
+2020-04-28 09:23:04,198:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 09:23:04,198:INFO: max_len: 180
+2020-04-28 09:23:04,199:INFO: full_finetuning: True
+2020-04-28 09:23:04,199:INFO: clip_grad: 5
+2020-04-28 09:23:04,199:INFO: model_folder: saved_model
+2020-04-28 09:23:04,200:INFO: device_num: 0
+2020-04-28 09:23:04,200:INFO: 
+
+2020-04-28 09:23:04,200:INFO: Loading the datasets...
+2020-04-28 09:23:11,248:INFO: Building label idx ...
+2020-04-28 09:23:11,804:INFO: [Training Info] number of instances: 50658
+2020-04-28 09:23:17,939:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 09:23:17,939:INFO: [Training Info] Training fold pre_train.
+2020-04-28 09:23:17,939:INFO: Initialized from pre-trained Model
+2020-04-28 09:23:17,944:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 09:23:29,534:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 09:23:29,534:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 09:23:29,587:INFO: full finetuning
+2020-04-28 09:32:30,570:INFO: Epoch 1: 174.62133, Time is 540.98s
+2020-04-28 09:32:45,385:INFO: [dev set] Precision: 0.81, Recall: 1.52, F1: 1.05
+2020-04-28 09:32:45,385:INFO: saving the best model...
+2020-04-28 09:42:49,486:INFO: Epoch 2: 98.09586, Time is 542.05s
+2020-04-28 09:43:04,318:INFO: [dev set] Precision: 0.77, Recall: 1.45, F1: 1.01
+2020-04-28 09:52:06,771:INFO: Epoch 3: 88.09735, Time is 542.45s
+2020-04-28 09:52:21,604:INFO: [dev set] Precision: 0.80, Recall: 1.50, F1: 1.04
+2020-04-28 09:58:26,986:INFO: mode: pre_train
+2020-04-28 09:58:27,016:INFO: device: cuda
+2020-04-28 09:58:27,017:INFO: seed: 2019
+2020-04-28 09:58:27,017:INFO: digit2zero: True
+2020-04-28 09:58:27,017:INFO: dataset: data
+2020-04-28 09:58:27,017:INFO: optimizer: adam
+2020-04-28 09:58:27,017:INFO: learning_rate: 0.0001
+2020-04-28 09:58:27,017:INFO: momentum: 0.0
+2020-04-28 09:58:27,017:INFO: l2: 1e-08
+2020-04-28 09:58:27,017:INFO: lr_decay: 0
+2020-04-28 09:58:27,017:INFO: batch_size: 32
+2020-04-28 09:58:27,018:INFO: num_epochs: 100
+2020-04-28 09:58:27,018:INFO: train_num: -1
+2020-04-28 09:58:27,018:INFO: dev_num: -1
+2020-04-28 09:58:27,018:INFO: num_outer_iterations: 10
+2020-04-28 09:58:27,018:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 09:58:27,018:INFO: max_len: 180
+2020-04-28 09:58:27,018:INFO: full_finetuning: True
+2020-04-28 09:58:27,018:INFO: clip_grad: 5
+2020-04-28 09:58:27,018:INFO: model_folder: saved_model
+2020-04-28 09:58:27,018:INFO: device_num: 0
+2020-04-28 09:58:27,018:INFO: 
+
+2020-04-28 09:58:27,019:INFO: Loading the datasets...
+2020-04-28 09:58:34,186:INFO: Building label idx ...
+2020-04-28 09:58:34,733:INFO: [Training Info] number of instances: 50658
+2020-04-28 09:58:40,931:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 09:58:40,931:INFO: [Training Info] Training fold pre_train.
+2020-04-28 09:58:40,931:INFO: Initialized from pre-trained Model
+2020-04-28 09:58:40,936:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 09:58:51,562:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 09:58:51,562:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 09:58:51,615:INFO: full finetuning
+2020-04-28 10:07:53,041:INFO: Epoch 1: 174.62133, Time is 541.42s
+2020-04-28 10:08:07,899:INFO: [dev set] Precision: 0.81, Recall: 1.52, F1: 1.05
+2020-04-28 10:08:07,900:INFO: saving the best model...
+2020-04-28 10:18:11,788:INFO: Epoch 2: 98.09586, Time is 541.65s
+2020-04-28 10:18:26,632:INFO: [dev set] Precision: 0.77, Recall: 1.45, F1: 1.01
+2020-04-28 10:27:28,877:INFO: Epoch 3: 88.09735, Time is 542.24s
+2020-04-28 10:27:43,730:INFO: [dev set] Precision: 0.80, Recall: 1.50, F1: 1.04
+2020-04-28 10:36:45,753:INFO: Epoch 4: 82.37875, Time is 542.02s
+2020-04-28 10:37:00,585:INFO: [dev set] Precision: 0.79, Recall: 1.48, F1: 1.03
+2020-04-28 10:46:02,702:INFO: Epoch 5: 78.73344, Time is 542.11s
+2020-04-28 10:46:17,545:INFO: [dev set] Precision: 0.78, Recall: 1.46, F1: 1.02
+2020-04-28 10:55:19,750:INFO: Epoch 6: 75.72915, Time is 542.20s
+2020-04-28 10:55:34,598:INFO: [dev set] Precision: 0.78, Recall: 1.45, F1: 1.01
+2020-04-28 13:23:43,264:INFO: mode: pre_train
+2020-04-28 13:23:43,289:INFO: device: cuda
+2020-04-28 13:23:43,289:INFO: seed: 2019
+2020-04-28 13:23:43,289:INFO: digit2zero: True
+2020-04-28 13:23:43,290:INFO: dataset: data
+2020-04-28 13:23:43,290:INFO: optimizer: adam
+2020-04-28 13:23:43,290:INFO: learning_rate: 5e-05
+2020-04-28 13:23:43,290:INFO: momentum: 0.0
+2020-04-28 13:23:43,290:INFO: l2: 1e-08
+2020-04-28 13:23:43,290:INFO: lr_decay: 0
+2020-04-28 13:23:43,290:INFO: batch_size: 32
+2020-04-28 13:23:43,290:INFO: num_epochs: 100
+2020-04-28 13:23:43,290:INFO: train_num: -1
+2020-04-28 13:23:43,291:INFO: dev_num: -1
+2020-04-28 13:23:43,291:INFO: num_outer_iterations: 10
+2020-04-28 13:23:43,291:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 13:23:43,291:INFO: max_len: 180
+2020-04-28 13:23:43,291:INFO: full_finetuning: True
+2020-04-28 13:23:43,291:INFO: clip_grad: 5
+2020-04-28 13:23:43,291:INFO: model_folder: saved_model
+2020-04-28 13:23:43,291:INFO: device_num: 0
+2020-04-28 13:23:43,291:INFO: 
+
+2020-04-28 13:23:43,291:INFO: Loading the datasets...
+2020-04-28 13:23:50,789:INFO: Building label idx ...
+2020-04-28 13:23:51,330:INFO: [Training Info] number of instances: 50658
+2020-04-28 13:23:59,648:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 13:23:59,650:INFO: [Training Info] Training fold pre_train.
+2020-04-28 13:23:59,650:INFO: Initialized from pre-trained Model
+2020-04-28 13:23:59,655:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 13:24:06,994:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 13:24:06,995:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 13:24:07,148:INFO: full finetuning
+2020-04-28 13:33:07,525:INFO: Epoch 1: 186.32695, Time is 540.37s
+2020-04-28 14:04:43,997:INFO: mode: pre_train
+2020-04-28 14:04:44,005:INFO: device: cuda
+2020-04-28 14:04:44,005:INFO: seed: 2019
+2020-04-28 14:04:44,006:INFO: digit2zero: True
+2020-04-28 14:04:44,006:INFO: dataset: data
+2020-04-28 14:04:44,007:INFO: optimizer: adam
+2020-04-28 14:04:44,007:INFO: learning_rate: 5e-05
+2020-04-28 14:04:44,007:INFO: momentum: 0.0
+2020-04-28 14:04:44,008:INFO: l2: 1e-08
+2020-04-28 14:04:44,008:INFO: lr_decay: 0
+2020-04-28 14:04:44,008:INFO: batch_size: 32
+2020-04-28 14:04:44,008:INFO: num_epochs: 100
+2020-04-28 14:04:44,009:INFO: train_num: -1
+2020-04-28 14:04:44,009:INFO: dev_num: -1
+2020-04-28 14:04:44,009:INFO: num_outer_iterations: 10
+2020-04-28 14:04:44,010:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 14:04:44,010:INFO: max_len: 180
+2020-04-28 14:04:44,010:INFO: full_finetuning: True
+2020-04-28 14:04:44,011:INFO: clip_grad: 5
+2020-04-28 14:04:44,011:INFO: model_folder: saved_model
+2020-04-28 14:04:44,011:INFO: device_num: 0
+2020-04-28 14:04:44,011:INFO: 
+
+2020-04-28 14:04:44,012:INFO: Loading the datasets...
+2020-04-28 14:04:45,102:INFO: Building label idx ...
+2020-04-28 14:04:45,182:INFO: [Training Info] number of instances: 4631
+2020-04-28 14:04:48,441:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 14:04:48,443:INFO: [Training Info] Training fold pre_train.
+2020-04-28 14:04:48,443:INFO: Initialized from pre-trained Model
+2020-04-28 14:04:48,445:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 14:04:55,963:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 14:04:55,964:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 14:04:56,115:INFO: full finetuning
+2020-04-28 14:05:45,118:INFO: Epoch 1: 44.79382, Time is 49.00s
+2020-04-28 14:07:49,595:INFO: mode: pre_train
+2020-04-28 14:07:49,615:INFO: device: cuda
+2020-04-28 14:07:49,616:INFO: seed: 2019
+2020-04-28 14:07:49,617:INFO: digit2zero: True
+2020-04-28 14:07:49,618:INFO: dataset: data
+2020-04-28 14:07:49,620:INFO: optimizer: adam
+2020-04-28 14:07:49,621:INFO: learning_rate: 5e-05
+2020-04-28 14:07:49,622:INFO: momentum: 0.0
+2020-04-28 14:07:49,623:INFO: l2: 1e-08
+2020-04-28 14:07:49,624:INFO: lr_decay: 0
+2020-04-28 14:07:49,625:INFO: batch_size: 32
+2020-04-28 14:07:49,627:INFO: num_epochs: 100
+2020-04-28 14:07:49,628:INFO: train_num: -1
+2020-04-28 14:07:49,629:INFO: dev_num: -1
+2020-04-28 14:07:49,630:INFO: num_outer_iterations: 10
+2020-04-28 14:07:49,631:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 14:07:49,632:INFO: max_len: 180
+2020-04-28 14:07:49,633:INFO: full_finetuning: True
+2020-04-28 14:07:49,634:INFO: clip_grad: 5
+2020-04-28 14:07:49,635:INFO: model_folder: saved_model
+2020-04-28 14:07:49,636:INFO: device_num: 0
+2020-04-28 14:07:49,637:INFO: 
+
+2020-04-28 14:07:49,638:INFO: Loading the datasets...
+2020-04-28 14:07:55,134:INFO: Building label idx ...
+2020-04-28 14:07:55,304:INFO: [Training Info] number of instances: 4631
+2020-04-28 14:08:00,228:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 14:08:00,230:INFO: [Training Info] Training fold pre_train.
+2020-04-28 14:08:00,230:INFO: Initialized from pre-trained Model
+2020-04-28 14:08:00,233:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 14:08:08,651:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 14:08:08,651:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 14:08:08,832:INFO: full finetuning
+2020-04-28 14:25:47,044:INFO: mode: pre_train
+2020-04-28 14:25:47,341:INFO: device: cuda
+2020-04-28 14:25:47,342:INFO: seed: 2019
+2020-04-28 14:25:47,343:INFO: digit2zero: True
+2020-04-28 14:25:47,345:INFO: dataset: data
+2020-04-28 14:25:47,346:INFO: optimizer: adam
+2020-04-28 14:25:47,347:INFO: learning_rate: 5e-05
+2020-04-28 14:25:47,348:INFO: momentum: 0.0
+2020-04-28 14:25:47,349:INFO: l2: 1e-08
+2020-04-28 14:25:47,350:INFO: lr_decay: 0
+2020-04-28 14:25:47,351:INFO: batch_size: 32
+2020-04-28 14:25:47,352:INFO: num_epochs: 100
+2020-04-28 14:25:47,353:INFO: train_num: -1
+2020-04-28 14:25:47,354:INFO: dev_num: -1
+2020-04-28 14:25:47,355:INFO: num_outer_iterations: 10
+2020-04-28 14:25:47,357:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 14:25:47,358:INFO: max_len: 180
+2020-04-28 14:25:47,359:INFO: full_finetuning: True
+2020-04-28 14:25:47,360:INFO: clip_grad: 5
+2020-04-28 14:25:47,361:INFO: model_folder: saved_model
+2020-04-28 14:25:47,362:INFO: device_num: 0
+2020-04-28 14:25:47,363:INFO: 
+
+2020-04-28 14:25:47,364:INFO: Loading the datasets...
+2020-04-28 14:25:52,871:INFO: Building label idx ...
+2020-04-28 14:25:53,036:INFO: [Training Info] number of instances: 4631
+2020-04-28 14:25:57,926:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 14:25:57,926:INFO: [Training Info] Training fold pre_train.
+2020-04-28 14:25:57,927:INFO: Initialized from pre-trained Model
+2020-04-28 14:25:57,929:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 14:26:05,851:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 14:26:05,851:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 14:26:06,021:INFO: full finetuning
+2020-04-28 14:27:01,076:INFO: Epoch 1: 44.79382, Time is 55.02s
+2020-04-28 14:33:22,373:INFO: mode: pre_train
+2020-04-28 14:33:22,373:INFO: device: cuda
+2020-04-28 14:33:22,373:INFO: seed: 2019
+2020-04-28 14:33:22,373:INFO: digit2zero: True
+2020-04-28 14:33:22,374:INFO: dataset: data
+2020-04-28 14:33:22,374:INFO: optimizer: adam
+2020-04-28 14:33:22,374:INFO: learning_rate: 5e-05
+2020-04-28 14:33:22,374:INFO: momentum: 0.0
+2020-04-28 14:33:22,374:INFO: l2: 1e-08
+2020-04-28 14:33:22,374:INFO: lr_decay: 0
+2020-04-28 14:33:22,374:INFO: batch_size: 32
+2020-04-28 14:33:22,374:INFO: num_epochs: 100
+2020-04-28 14:33:22,374:INFO: train_num: -1
+2020-04-28 14:33:22,374:INFO: dev_num: -1
+2020-04-28 14:33:22,374:INFO: num_outer_iterations: 10
+2020-04-28 14:33:22,374:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 14:33:22,374:INFO: max_len: 180
+2020-04-28 14:33:22,374:INFO: full_finetuning: True
+2020-04-28 14:33:22,375:INFO: clip_grad: 5
+2020-04-28 14:33:22,375:INFO: model_folder: saved_model
+2020-04-28 14:33:22,375:INFO: device_num: 0
+2020-04-28 14:33:22,375:INFO: 
+
+2020-04-28 14:33:22,375:INFO: Loading the datasets...
+2020-04-28 14:33:23,443:INFO: Building label idx ...
+2020-04-28 14:33:23,520:INFO: [Training Info] number of instances: 4631
+2020-04-28 14:33:26,763:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 14:33:26,791:INFO: [Training Info] Training fold pre_train.
+2020-04-28 14:33:26,791:INFO: Initialized from pre-trained Model
+2020-04-28 14:33:26,803:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 14:33:42,288:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 14:33:42,290:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 14:33:42,445:INFO: full finetuning
+2020-04-28 14:34:31,431:INFO: Epoch 1: 44.79382, Time is 48.98s
+2020-04-28 14:36:28,471:INFO: mode: pre_train
+2020-04-28 14:36:28,488:INFO: device: cuda
+2020-04-28 14:36:28,489:INFO: seed: 2019
+2020-04-28 14:36:28,489:INFO: digit2zero: True
+2020-04-28 14:36:28,489:INFO: dataset: data
+2020-04-28 14:36:28,489:INFO: optimizer: adam
+2020-04-28 14:36:28,489:INFO: learning_rate: 5e-05
+2020-04-28 14:36:28,489:INFO: momentum: 0.0
+2020-04-28 14:36:28,489:INFO: l2: 1e-08
+2020-04-28 14:36:28,489:INFO: lr_decay: 0
+2020-04-28 14:36:28,490:INFO: batch_size: 32
+2020-04-28 14:36:28,490:INFO: num_epochs: 100
+2020-04-28 14:36:28,490:INFO: train_num: -1
+2020-04-28 14:36:28,490:INFO: dev_num: -1
+2020-04-28 14:36:28,490:INFO: num_outer_iterations: 10
+2020-04-28 14:36:28,490:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 14:36:28,490:INFO: max_len: 180
+2020-04-28 14:36:28,490:INFO: full_finetuning: True
+2020-04-28 14:36:28,490:INFO: clip_grad: 5
+2020-04-28 14:36:28,490:INFO: model_folder: saved_model
+2020-04-28 14:36:28,490:INFO: device_num: 0
+2020-04-28 14:36:28,490:INFO: 
+
+2020-04-28 14:36:28,490:INFO: Loading the datasets...
+2020-04-28 14:36:29,574:INFO: Building label idx ...
+2020-04-28 14:36:29,651:INFO: [Training Info] number of instances: 4631
+2020-04-28 14:36:32,949:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 14:36:32,950:INFO: [Training Info] Training fold pre_train.
+2020-04-28 14:36:32,951:INFO: Initialized from pre-trained Model
+2020-04-28 14:36:32,952:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 14:36:39,797:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 14:36:39,799:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 14:36:39,950:INFO: full finetuning
+2020-04-28 14:37:28,946:INFO: Epoch 1: 44.79382, Time is 48.99s
+2020-04-28 14:37:43,735:INFO: [dev set] Precision: 0.89, Recall: 1.27, F1: 1.04
+2020-04-28 14:37:43,737:INFO: saving the best model...
+2020-04-28 14:41:09,742:INFO: mode: pre_train
+2020-04-28 14:41:09,749:INFO: device: cuda
+2020-04-28 14:41:09,749:INFO: seed: 2019
+2020-04-28 14:41:09,749:INFO: digit2zero: True
+2020-04-28 14:41:09,749:INFO: dataset: data
+2020-04-28 14:41:09,750:INFO: optimizer: adam
+2020-04-28 14:41:09,750:INFO: learning_rate: 5e-05
+2020-04-28 14:41:09,750:INFO: momentum: 0.0
+2020-04-28 14:41:09,750:INFO: l2: 1e-08
+2020-04-28 14:41:09,750:INFO: lr_decay: 0
+2020-04-28 14:41:09,750:INFO: batch_size: 32
+2020-04-28 14:41:09,750:INFO: num_epochs: 100
+2020-04-28 14:41:09,750:INFO: train_num: -1
+2020-04-28 14:41:09,750:INFO: dev_num: -1
+2020-04-28 14:41:09,750:INFO: num_outer_iterations: 10
+2020-04-28 14:41:09,750:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 14:41:09,750:INFO: max_len: 180
+2020-04-28 14:41:09,750:INFO: full_finetuning: True
+2020-04-28 14:41:09,750:INFO: clip_grad: 5
+2020-04-28 14:41:09,750:INFO: model_folder: saved_model
+2020-04-28 14:41:09,751:INFO: device_num: 0
+2020-04-28 14:41:09,751:INFO: 
+
+2020-04-28 14:41:09,751:INFO: Loading the datasets...
+2020-04-28 14:41:18,160:INFO: Building label idx ...
+2020-04-28 14:41:18,803:INFO: [Training Info] number of instances: 50658
+2020-04-28 14:41:26,483:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 14:41:26,484:INFO: [Training Info] Training fold pre_train.
+2020-04-28 14:41:26,485:INFO: Initialized from pre-trained Model
+2020-04-28 14:41:26,489:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 14:41:34,016:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 14:41:34,017:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 14:41:34,170:INFO: full finetuning
+2020-04-28 14:50:47,901:INFO: Epoch 1: 186.32695, Time is 553.73s
+2020-04-28 14:51:03,031:INFO: [dev set] Precision: 0.76, Recall: 1.43, F1: 0.99
+2020-04-28 14:51:03,032:INFO: saving the best model...
+2020-04-28 15:43:19,371:INFO: mode: pre_train
+2020-04-28 15:43:19,381:INFO: device: cuda
+2020-04-28 15:43:19,381:INFO: seed: 2019
+2020-04-28 15:43:19,381:INFO: digit2zero: True
+2020-04-28 15:43:19,381:INFO: dataset: data
+2020-04-28 15:43:19,382:INFO: optimizer: adam
+2020-04-28 15:43:19,382:INFO: learning_rate: 5e-05
+2020-04-28 15:43:19,382:INFO: momentum: 0.0
+2020-04-28 15:43:19,382:INFO: l2: 1e-08
+2020-04-28 15:43:19,382:INFO: lr_decay: 0
+2020-04-28 15:43:19,382:INFO: batch_size: 32
+2020-04-28 15:43:19,382:INFO: num_epochs: 100
+2020-04-28 15:43:19,382:INFO: train_num: -1
+2020-04-28 15:43:19,382:INFO: dev_num: -1
+2020-04-28 15:43:19,382:INFO: num_outer_iterations: 10
+2020-04-28 15:43:19,382:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 15:43:19,383:INFO: max_len: 180
+2020-04-28 15:43:19,383:INFO: full_finetuning: True
+2020-04-28 15:43:19,383:INFO: clip_grad: 5
+2020-04-28 15:43:19,383:INFO: model_folder: saved_model
+2020-04-28 15:43:19,383:INFO: device_num: 0
+2020-04-28 15:43:19,383:INFO: 
+
+2020-04-28 15:43:19,383:INFO: Loading the datasets...
+2020-04-28 15:43:28,291:INFO: Building label idx ...
+2020-04-28 15:43:28,958:INFO: [Training Info] number of instances: 50658
+2020-04-28 15:43:37,248:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 15:43:37,249:INFO: [Training Info] Training fold pre_train.
+2020-04-28 15:43:37,249:INFO: Initialized from pre-trained Model
+2020-04-28 15:43:37,252:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 15:43:43,452:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 15:43:43,452:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 15:43:43,607:INFO: full finetuning
+2020-04-28 15:52:55,711:INFO: Epoch 1: 186.32695, Time is 552.10s
+2020-04-28 15:53:10,722:INFO: [dev set] Precision: 0.76, Recall: 1.43, F1: 0.99
+2020-04-28 15:53:10,722:INFO: saving the best model...
+2020-04-28 16:29:10,115:INFO: mode: pre_train
+2020-04-28 16:29:10,124:INFO: device: cuda
+2020-04-28 16:29:10,124:INFO: seed: 2019
+2020-04-28 16:29:10,124:INFO: digit2zero: True
+2020-04-28 16:29:10,124:INFO: dataset: data
+2020-04-28 16:29:10,125:INFO: optimizer: adam
+2020-04-28 16:29:10,125:INFO: learning_rate: 5e-05
+2020-04-28 16:29:10,125:INFO: momentum: 0.0
+2020-04-28 16:29:10,125:INFO: l2: 1e-08
+2020-04-28 16:29:10,125:INFO: lr_decay: 0
+2020-04-28 16:29:10,125:INFO: batch_size: 32
+2020-04-28 16:29:10,125:INFO: num_epochs: 100
+2020-04-28 16:29:10,125:INFO: train_num: -1
+2020-04-28 16:29:10,125:INFO: dev_num: -1
+2020-04-28 16:29:10,125:INFO: num_outer_iterations: 10
+2020-04-28 16:29:10,125:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-04-28 16:29:10,125:INFO: max_len: 180
+2020-04-28 16:29:10,126:INFO: full_finetuning: True
+2020-04-28 16:29:10,126:INFO: clip_grad: 5
+2020-04-28 16:29:10,126:INFO: model_folder: saved_model
+2020-04-28 16:29:10,126:INFO: device_num: 0
+2020-04-28 16:29:10,126:INFO: 
+
+2020-04-28 16:29:10,126:INFO: Loading the datasets...
+2020-04-28 16:29:19,191:INFO: Building label idx ...
+2020-04-28 16:29:19,919:INFO: [Training Info] number of instances: 50658
+2020-04-28 16:29:28,138:INFO: [Training Info] The model will be saved to: saved_model
+2020-04-28 16:29:28,139:INFO: [Training Info] Training fold pre_train.
+2020-04-28 16:29:28,139:INFO: Initialized from pre-trained Model
+2020-04-28 16:29:28,192:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-04-28 16:29:35,546:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-04-28 16:29:35,549:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-04-28 16:29:35,704:INFO: full finetuning
+2020-04-28 16:38:48,577:INFO: Epoch 1: 186.32695, Time is 552.87s
+2020-04-28 16:39:03,568:INFO: [dev set] Precision: 81.84, Recall: 83.33, F1: 82.58
+2020-04-28 16:39:03,570:INFO: saving the best model...
+2020-04-28 16:48:56,534:INFO: Epoch 2: 122.12018, Time is 554.71s
+2020-04-28 16:49:11,517:INFO: [dev set] Precision: 83.02, Recall: 84.19, F1: 83.60
+2020-04-28 16:49:11,518:INFO: saving the best model...
+2020-04-28 16:59:01,854:INFO: Epoch 3: 114.72986, Time is 552.78s
+2020-04-28 16:59:16,842:INFO: [dev set] Precision: 83.41, Recall: 84.53, F1: 83.96
+2020-04-28 16:59:16,843:INFO: saving the best model...
+2020-04-28 17:09:09,167:INFO: Epoch 4: 109.32075, Time is 555.44s
+2020-04-28 17:09:24,152:INFO: [dev set] Precision: 83.46, Recall: 85.13, F1: 84.29
+2020-04-28 17:09:24,154:INFO: saving the best model...
+2020-04-28 17:19:17,910:INFO: Epoch 5: 106.21936, Time is 554.17s
+2020-04-28 17:19:32,874:INFO: [dev set] Precision: 83.86, Recall: 85.16, F1: 84.51
+2020-04-28 17:19:32,876:INFO: saving the best model...
+2020-04-28 17:29:27,373:INFO: Epoch 6: 103.60960, Time is 552.67s
+2020-04-28 17:29:42,312:INFO: [dev set] Precision: 83.79, Recall: 85.25, F1: 84.51
+2020-04-28 17:29:42,313:INFO: saving the best model...
+2020-04-28 17:39:36,083:INFO: Epoch 7: 101.52836, Time is 554.63s
+2020-04-28 17:39:51,063:INFO: [dev set] Precision: 84.20, Recall: 85.39, F1: 84.79
+2020-04-28 17:39:51,063:INFO: saving the best model...
+2020-04-28 17:49:50,163:INFO: Epoch 8: 99.88704, Time is 553.15s
+2020-04-28 17:50:05,156:INFO: [dev set] Precision: 84.29, Recall: 85.32, F1: 84.80
+2020-04-28 17:50:05,157:INFO: saving the best model...
+2020-04-28 18:00:01,660:INFO: Epoch 9: 98.42833, Time is 553.93s
+2020-04-28 18:00:16,518:INFO: [dev set] Precision: 84.28, Recall: 85.44, F1: 84.86
+2020-04-28 18:00:16,519:INFO: saving the best model...
+2020-04-28 18:09:56,757:INFO: Epoch 10: 97.08037, Time is 540.69s
+2020-04-28 18:10:11,609:INFO: [dev set] Precision: 84.01, Recall: 85.44, F1: 84.72
+2020-04-28 18:19:12,834:INFO: Epoch 11: 96.24757, Time is 541.22s
+2020-04-28 18:19:27,681:INFO: [dev set] Precision: 84.10, Recall: 85.51, F1: 84.80
+2020-04-28 18:28:28,564:INFO: Epoch 12: 95.09748, Time is 540.88s
+2020-04-28 18:28:43,401:INFO: [dev set] Precision: 84.12, Recall: 85.53, F1: 84.82
+2020-04-28 18:37:44,533:INFO: Epoch 13: 93.85761, Time is 541.13s
+2020-04-28 18:37:59,382:INFO: [dev set] Precision: 84.30, Recall: 85.65, F1: 84.97
+2020-04-28 18:37:59,383:INFO: saving the best model...
+2020-04-28 18:47:39,017:INFO: Epoch 14: 93.21847, Time is 540.95s
+2020-04-28 18:47:53,873:INFO: [dev set] Precision: 84.16, Recall: 85.71, F1: 84.93
+2020-04-28 18:56:55,217:INFO: Epoch 15: 92.67757, Time is 541.34s
+2020-04-28 18:57:10,072:INFO: [dev set] Precision: 84.34, Recall: 85.74, F1: 85.04
+2020-04-28 18:57:10,073:INFO: saving the best model...
+2020-04-28 19:06:51,792:INFO: Epoch 16: 92.19999, Time is 540.86s
+2020-04-28 19:07:06,658:INFO: [dev set] Precision: 84.42, Recall: 85.72, F1: 85.06
+2020-04-28 19:07:06,659:INFO: saving the best model...
+2020-04-28 19:16:50,416:INFO: Epoch 17: 91.28124, Time is 543.60s
+2020-04-28 19:17:05,329:INFO: [dev set] Precision: 84.33, Recall: 85.81, F1: 85.06
+2020-04-28 19:26:13,121:INFO: Epoch 18: 90.25686, Time is 547.79s
+2020-04-28 19:26:28,038:INFO: [dev set] Precision: 84.58, Recall: 85.76, F1: 85.17
+2020-04-28 19:26:28,039:INFO: saving the best model...
+2020-04-28 19:36:12,268:INFO: Epoch 19: 90.18258, Time is 544.57s
+2020-04-28 19:36:27,132:INFO: [dev set] Precision: 84.59, Recall: 85.83, F1: 85.21
+2020-04-28 19:36:27,133:INFO: saving the best model...
+2020-04-28 19:46:11,769:INFO: Epoch 20: 89.46240, Time is 543.57s
+2020-04-28 19:46:26,686:INFO: [dev set] Precision: 84.74, Recall: 85.81, F1: 85.27
+2020-04-28 19:46:26,687:INFO: saving the best model...
+2020-04-28 19:56:06,208:INFO: Epoch 21: 89.04229, Time is 541.61s
+2020-04-28 19:56:21,077:INFO: [dev set] Precision: 84.74, Recall: 85.74, F1: 85.24
+2020-04-28 20:05:22,771:INFO: Epoch 22: 88.38741, Time is 541.69s
+2020-04-28 20:05:37,635:INFO: [dev set] Precision: 84.65, Recall: 85.79, F1: 85.22
+2020-04-28 20:14:39,392:INFO: Epoch 23: 88.03074, Time is 541.75s
+2020-04-28 20:14:54,259:INFO: [dev set] Precision: 84.71, Recall: 85.83, F1: 85.27
+2020-04-28 20:23:56,006:INFO: Epoch 24: 87.76925, Time is 541.74s
+2020-04-28 20:24:10,865:INFO: [dev set] Precision: 84.82, Recall: 85.87, F1: 85.34
+2020-04-28 20:24:10,867:INFO: saving the best model...
+2020-04-28 20:33:50,813:INFO: Epoch 25: 87.20032, Time is 540.89s
+2020-04-28 20:34:05,679:INFO: [dev set] Precision: 84.90, Recall: 86.01, F1: 85.45
+2020-04-28 20:34:05,680:INFO: saving the best model...
+2020-04-28 20:43:48,714:INFO: Epoch 26: 86.79460, Time is 546.06s
+2020-04-28 20:44:03,650:INFO: [dev set] Precision: 84.68, Recall: 86.02, F1: 85.35
+2020-04-28 20:53:13,279:INFO: Epoch 27: 86.99058, Time is 549.63s
+2020-04-28 20:53:28,209:INFO: [dev set] Precision: 84.81, Recall: 85.99, F1: 85.39
+2020-04-28 21:02:37,445:INFO: Epoch 28: 86.31836, Time is 549.23s
+2020-04-28 21:02:52,365:INFO: [dev set] Precision: 84.75, Recall: 86.09, F1: 85.42
+2020-04-28 21:12:01,728:INFO: Epoch 29: 86.25380, Time is 549.36s
+2020-04-28 21:12:16,649:INFO: [dev set] Precision: 84.59, Recall: 86.09, F1: 85.33
+2020-04-28 21:21:26,017:INFO: Epoch 30: 85.87613, Time is 549.36s
+2020-04-28 21:21:40,946:INFO: [dev set] Precision: 84.78, Recall: 86.02, F1: 85.40
+2020-05-02 17:30:03,023:INFO: mode: pre_train
+2020-05-02 17:30:03,032:INFO: device: cuda
+2020-05-02 17:30:03,032:INFO: seed: 2019
+2020-05-02 17:30:03,032:INFO: digit2zero: True
+2020-05-02 17:30:03,032:INFO: dataset: data
+2020-05-02 17:30:03,032:INFO: optimizer: adam
+2020-05-02 17:30:03,033:INFO: learning_rate: 3e-05
+2020-05-02 17:30:03,033:INFO: momentum: 0.0
+2020-05-02 17:30:03,033:INFO: l2: 1e-08
+2020-05-02 17:30:03,033:INFO: lr_decay: 0
+2020-05-02 17:30:03,033:INFO: batch_size: 16
+2020-05-02 17:30:03,033:INFO: num_epochs: 100
+2020-05-02 17:30:03,033:INFO: train_num: -1
+2020-05-02 17:30:03,033:INFO: dev_num: -1
+2020-05-02 17:30:03,033:INFO: num_outer_iterations: 10
+2020-05-02 17:30:03,034:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-02 17:30:03,034:INFO: max_len: 180
+2020-05-02 17:30:03,034:INFO: full_finetuning: True
+2020-05-02 17:30:03,034:INFO: clip_grad: 5
+2020-05-02 17:30:03,034:INFO: model_folder: saved_model
+2020-05-02 17:30:03,034:INFO: device_num: 0
+2020-05-02 17:30:03,034:INFO: 
+
+2020-05-02 17:30:03,034:INFO: Loading the datasets...
+2020-05-02 17:30:03,749:INFO: Building label idx ...
+2020-05-02 17:30:03,840:INFO: [Training Info] number of instances: 9999
+2020-05-02 17:30:08,265:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-02 17:30:08,266:INFO: [Training Info] Training fold pre_train.
+2020-05-02 17:30:08,266:INFO: Initialized from pre-trained Model
+2020-05-02 17:30:08,268:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-02 17:30:18,877:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-02 17:30:18,877:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-02 17:30:18,959:INFO: full finetuning
+2020-05-02 17:31:28,672:INFO: Epoch 1: 299.90529, Time is 69.71s
+2020-05-02 17:31:29,856:INFO: [dev set] Precision: 59.26, Recall: 5.85, F1: 10.65
+2020-05-02 17:31:29,857:INFO: saving the best model...
+2020-05-02 21:43:46,068:INFO: mode: pre_train
+2020-05-02 21:43:46,098:INFO: device: cuda
+2020-05-02 21:43:46,098:INFO: seed: 2019
+2020-05-02 21:43:46,098:INFO: digit2zero: True
+2020-05-02 21:43:46,098:INFO: dataset: data
+2020-05-02 21:43:46,098:INFO: optimizer: adam
+2020-05-02 21:43:46,099:INFO: learning_rate: 3e-05
+2020-05-02 21:43:46,099:INFO: momentum: 0.0
+2020-05-02 21:43:46,099:INFO: l2: 1e-08
+2020-05-02 21:43:46,099:INFO: lr_decay: 0
+2020-05-02 21:43:46,099:INFO: batch_size: 32
+2020-05-02 21:43:46,099:INFO: num_epochs: 100
+2020-05-02 21:43:46,099:INFO: train_num: -1
+2020-05-02 21:43:46,099:INFO: dev_num: -1
+2020-05-02 21:43:46,100:INFO: num_outer_iterations: 10
+2020-05-02 21:43:46,100:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-02 21:43:46,100:INFO: max_len: 180
+2020-05-02 21:43:46,100:INFO: full_finetuning: True
+2020-05-02 21:43:46,100:INFO: clip_grad: 5
+2020-05-02 21:43:46,100:INFO: model_folder: saved_model
+2020-05-02 21:43:46,100:INFO: device_num: 0
+2020-05-02 21:43:46,101:INFO: 
+
+2020-05-02 21:43:46,101:INFO: Loading the datasets...
+2020-05-02 21:43:54,073:INFO: Building label idx ...
+2020-05-02 21:43:54,811:INFO: [Training Info] number of instances: 50658
+2020-05-02 21:44:03,219:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-02 21:44:03,220:INFO: [Training Info] Training fold pre_train.
+2020-05-02 21:44:03,220:INFO: Initialized from pre-trained Model
+2020-05-02 21:44:03,222:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-02 21:44:12,686:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-02 21:44:12,686:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-02 21:44:12,756:INFO: full finetuning
+2020-05-02 21:50:48,204:INFO: Epoch 1: 153.33576, Time is 395.45s
+2020-05-02 21:50:57,820:INFO: [dev set] Precision: 0.88, Recall: 1.64, F1: 1.14
+2020-05-02 21:50:57,822:INFO: saving the best model...
+2020-05-02 21:54:31,875:INFO: mode: pre_train
+2020-05-02 21:54:31,883:INFO: device: cuda
+2020-05-02 21:54:31,883:INFO: seed: 2019
+2020-05-02 21:54:31,883:INFO: digit2zero: True
+2020-05-02 21:54:31,883:INFO: dataset: data
+2020-05-02 21:54:31,883:INFO: optimizer: adam
+2020-05-02 21:54:31,884:INFO: learning_rate: 3e-05
+2020-05-02 21:54:31,884:INFO: momentum: 0.0
+2020-05-02 21:54:31,884:INFO: l2: 1e-08
+2020-05-02 21:54:31,884:INFO: lr_decay: 0
+2020-05-02 21:54:31,884:INFO: batch_size: 32
+2020-05-02 21:54:31,884:INFO: num_epochs: 100
+2020-05-02 21:54:31,884:INFO: train_num: -1
+2020-05-02 21:54:31,885:INFO: dev_num: -1
+2020-05-02 21:54:31,885:INFO: num_outer_iterations: 10
+2020-05-02 21:54:31,885:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-02 21:54:31,885:INFO: max_len: 180
+2020-05-02 21:54:31,885:INFO: full_finetuning: True
+2020-05-02 21:54:31,885:INFO: clip_grad: 5
+2020-05-02 21:54:31,885:INFO: model_folder: saved_model
+2020-05-02 21:54:31,885:INFO: device_num: 0
+2020-05-02 21:54:31,886:INFO: 
+
+2020-05-02 21:54:31,886:INFO: Loading the datasets...
+2020-05-02 21:54:39,598:INFO: Building label idx ...
+2020-05-02 21:54:40,387:INFO: [Training Info] number of instances: 50658
+2020-05-02 21:54:48,887:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-02 21:54:48,888:INFO: [Training Info] Training fold pre_train.
+2020-05-02 21:54:48,888:INFO: Initialized from pre-trained Model
+2020-05-02 21:54:48,890:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-02 21:54:56,483:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-02 21:54:56,483:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-02 21:54:56,555:INFO: full finetuning
+2020-05-02 22:01:35,763:INFO: Epoch 1: 153.33576, Time is 399.21s
+2020-05-02 22:01:45,365:INFO: [dev set] Precision: 82.15, Recall: 83.20, F1: 82.67
+2020-05-02 22:01:45,365:INFO: saving the best model...
+2020-05-02 22:09:15,333:INFO: Epoch 2: 109.87020, Time is 399.75s
+2020-05-02 22:09:24,949:INFO: [dev set] Precision: 82.80, Recall: 84.10, F1: 83.45
+2020-05-02 22:09:24,950:INFO: saving the best model...
+2020-05-02 22:16:44,573:INFO: Epoch 3: 103.62601, Time is 402.93s
+2020-05-02 22:16:54,189:INFO: [dev set] Precision: 83.39, Recall: 84.49, F1: 83.94
+2020-05-02 22:16:54,190:INFO: saving the best model...
+2020-05-02 22:24:15,915:INFO: Epoch 4: 100.65102, Time is 400.90s
+2020-05-02 22:24:25,536:INFO: [dev set] Precision: 83.42, Recall: 84.77, F1: 84.09
+2020-05-02 22:24:25,537:INFO: saving the best model...
+2020-05-02 22:32:08,105:INFO: Epoch 5: 98.27809, Time is 402.10s
+2020-05-02 22:32:17,705:INFO: [dev set] Precision: 83.84, Recall: 84.79, F1: 84.31
+2020-05-02 22:32:17,706:INFO: saving the best model...
+2020-05-02 22:39:41,118:INFO: Epoch 6: 95.88315, Time is 402.27s
+2020-05-02 22:39:50,737:INFO: [dev set] Precision: 84.03, Recall: 84.83, F1: 84.42
+2020-05-02 22:39:50,738:INFO: saving the best model...
+2020-05-02 22:47:15,874:INFO: Epoch 7: 94.62436, Time is 401.37s
+2020-05-02 22:47:25,520:INFO: [dev set] Precision: 84.36, Recall: 84.86, F1: 84.61
+2020-05-02 22:47:25,521:INFO: saving the best model...
+2020-05-02 22:54:55,468:INFO: Epoch 8: 93.55100, Time is 400.56s
+2020-05-02 22:55:05,074:INFO: [dev set] Precision: 84.45, Recall: 84.83, F1: 84.64
+2020-05-02 22:55:05,075:INFO: saving the best model...
+2020-05-02 23:02:30,435:INFO: Epoch 9: 91.92387, Time is 400.23s
+2020-05-02 23:02:40,037:INFO: [dev set] Precision: 84.40, Recall: 84.97, F1: 84.68
+2020-05-02 23:02:40,037:INFO: saving the best model...
+2020-05-02 23:09:57,062:INFO: Epoch 10: 91.52048, Time is 396.49s
+2020-05-02 23:10:06,688:INFO: [dev set] Precision: 84.41, Recall: 85.02, F1: 84.71
+2020-05-02 23:10:06,688:INFO: saving the best model...
+2020-05-02 23:17:25,211:INFO: Epoch 11: 90.62215, Time is 398.74s
+2020-05-02 23:17:34,812:INFO: [dev set] Precision: 84.36, Recall: 85.16, F1: 84.76
+2020-05-02 23:17:34,813:INFO: saving the best model...
+2020-05-02 23:24:54,123:INFO: Epoch 12: 89.63126, Time is 399.84s
+2020-05-02 23:25:03,712:INFO: [dev set] Precision: 84.33, Recall: 85.11, F1: 84.72
+2020-05-02 23:31:43,117:INFO: Epoch 13: 89.09576, Time is 399.40s
+2020-05-02 23:31:52,698:INFO: [dev set] Precision: 84.43, Recall: 85.18, F1: 84.80
+2020-05-02 23:31:52,699:INFO: saving the best model...
+2020-05-02 23:39:11,096:INFO: Epoch 14: 88.74287, Time is 399.21s
+2020-05-02 23:39:20,693:INFO: [dev set] Precision: 84.23, Recall: 85.20, F1: 84.71
+2020-05-02 23:45:59,360:INFO: Epoch 15: 88.04824, Time is 398.66s
+2020-05-02 23:46:08,942:INFO: [dev set] Precision: 84.46, Recall: 85.14, F1: 84.80
+2020-05-02 23:52:48,472:INFO: Epoch 16: 87.39026, Time is 399.53s
+2020-05-02 23:52:58,062:INFO: [dev set] Precision: 84.54, Recall: 85.11, F1: 84.82
+2020-05-02 23:52:58,062:INFO: saving the best model...
+2020-05-03 00:00:33,265:INFO: Epoch 17: 86.82561, Time is 400.11s
+2020-05-03 00:00:42,866:INFO: [dev set] Precision: 84.37, Recall: 85.25, F1: 84.81
+2020-05-03 00:07:22,458:INFO: Epoch 18: 86.63561, Time is 399.59s
+2020-05-03 00:07:32,048:INFO: [dev set] Precision: 84.63, Recall: 85.21, F1: 84.92
+2020-05-03 00:07:32,049:INFO: saving the best model...
+2020-05-03 00:15:03,917:INFO: Epoch 19: 86.36291, Time is 399.61s
+2020-05-03 00:15:13,511:INFO: [dev set] Precision: 84.66, Recall: 85.23, F1: 84.95
+2020-05-03 00:15:13,511:INFO: saving the best model...
+2020-05-03 00:22:42,750:INFO: Epoch 20: 85.61065, Time is 398.06s
+2020-05-03 00:22:52,352:INFO: [dev set] Precision: 84.96, Recall: 85.23, F1: 85.10
+2020-05-03 00:22:52,353:INFO: saving the best model...
+2020-05-03 00:30:13,021:INFO: Epoch 21: 85.49442, Time is 399.35s
+2020-05-03 00:30:22,617:INFO: [dev set] Precision: 84.89, Recall: 85.23, F1: 85.06
+2020-05-03 00:37:01,800:INFO: Epoch 22: 85.13313, Time is 399.18s
+2020-05-03 00:37:11,390:INFO: [dev set] Precision: 84.82, Recall: 85.27, F1: 85.04
+2020-05-03 00:43:51,136:INFO: Epoch 23: 84.90155, Time is 399.74s
+2020-05-03 00:44:00,731:INFO: [dev set] Precision: 84.85, Recall: 85.28, F1: 85.07
+2020-05-03 00:50:40,118:INFO: Epoch 24: 84.66832, Time is 399.38s
+2020-05-03 00:50:49,704:INFO: [dev set] Precision: 84.95, Recall: 85.23, F1: 85.09
+2020-05-03 00:57:26,375:INFO: Epoch 25: 84.28073, Time is 396.67s
+2020-05-03 00:57:35,958:INFO: [dev set] Precision: 84.89, Recall: 85.28, F1: 85.09
+2020-05-03 01:04:15,943:INFO: Epoch 26: 83.95795, Time is 399.98s
+2020-05-03 01:04:25,532:INFO: [dev set] Precision: 84.96, Recall: 85.23, F1: 85.10
+2020-05-03 01:11:03,814:INFO: Epoch 27: 83.74915, Time is 398.28s
+2020-05-03 01:11:13,409:INFO: [dev set] Precision: 84.98, Recall: 85.23, F1: 85.10
+2020-05-03 01:11:13,410:INFO: saving the best model...
+2020-05-03 01:18:29,884:INFO: Epoch 28: 83.63100, Time is 399.82s
+2020-05-03 01:18:39,477:INFO: [dev set] Precision: 84.91, Recall: 85.32, F1: 85.12
+2020-05-03 01:18:39,478:INFO: saving the best model...
+2020-05-03 01:25:58,438:INFO: Epoch 29: 83.08066, Time is 398.67s
+2020-05-03 01:26:08,027:INFO: [dev set] Precision: 84.93, Recall: 85.32, F1: 85.12
+2020-05-03 01:26:08,028:INFO: saving the best model...
+2020-05-03 15:20:32,458:INFO: mode: pre_train
+2020-05-03 15:20:32,466:INFO: device: cuda
+2020-05-03 15:20:32,466:INFO: seed: 2019
+2020-05-03 15:20:32,466:INFO: digit2zero: True
+2020-05-03 15:20:32,466:INFO: dataset: data
+2020-05-03 15:20:32,467:INFO: optimizer: adam
+2020-05-03 15:20:32,467:INFO: learning_rate: 3e-05
+2020-05-03 15:20:32,467:INFO: momentum: 0.0
+2020-05-03 15:20:32,467:INFO: l2: 1e-08
+2020-05-03 15:20:32,467:INFO: lr_decay: 0
+2020-05-03 15:20:32,467:INFO: batch_size: 32
+2020-05-03 15:20:32,467:INFO: num_epochs: 100
+2020-05-03 15:20:32,468:INFO: train_num: -1
+2020-05-03 15:20:32,468:INFO: dev_num: -1
+2020-05-03 15:20:32,468:INFO: num_outer_iterations: 10
+2020-05-03 15:20:32,468:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-03 15:20:32,469:INFO: max_len: 180
+2020-05-03 15:20:32,469:INFO: full_finetuning: True
+2020-05-03 15:20:32,469:INFO: clip_grad: 5
+2020-05-03 15:20:32,469:INFO: model_folder: saved_model
+2020-05-03 15:20:32,470:INFO: device_num: 0
+2020-05-03 15:20:32,470:INFO: 
+
+2020-05-03 15:20:32,470:INFO: Loading the datasets...
+2020-05-03 15:20:39,632:INFO: Building label idx ...
+2020-05-03 15:20:40,296:INFO: [Training Info] number of instances: 50658
+2020-05-03 15:21:17,360:INFO: mode: pre_train
+2020-05-03 15:21:17,368:INFO: device: cuda
+2020-05-03 15:21:17,368:INFO: seed: 2019
+2020-05-03 15:21:17,368:INFO: digit2zero: True
+2020-05-03 15:21:17,368:INFO: dataset: data
+2020-05-03 15:21:17,368:INFO: optimizer: adam
+2020-05-03 15:21:17,369:INFO: learning_rate: 3e-05
+2020-05-03 15:21:17,369:INFO: momentum: 0.0
+2020-05-03 15:21:17,369:INFO: l2: 1e-08
+2020-05-03 15:21:17,369:INFO: lr_decay: 0
+2020-05-03 15:21:17,369:INFO: batch_size: 32
+2020-05-03 15:21:17,369:INFO: num_epochs: 100
+2020-05-03 15:21:17,370:INFO: train_num: -1
+2020-05-03 15:21:17,370:INFO: dev_num: -1
+2020-05-03 15:21:17,370:INFO: num_outer_iterations: 10
+2020-05-03 15:21:17,370:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-03 15:21:17,370:INFO: max_len: 180
+2020-05-03 15:21:17,370:INFO: full_finetuning: True
+2020-05-03 15:21:17,370:INFO: clip_grad: 5
+2020-05-03 15:21:17,371:INFO: model_folder: saved_model
+2020-05-03 15:21:17,371:INFO: device_num: 0
+2020-05-03 15:21:17,371:INFO: 
+
+2020-05-03 15:21:17,371:INFO: Loading the datasets...
+2020-05-03 15:21:30,363:INFO: mode: pre_train
+2020-05-03 15:21:30,370:INFO: device: cuda
+2020-05-03 15:21:30,371:INFO: seed: 2019
+2020-05-03 15:21:30,371:INFO: digit2zero: True
+2020-05-03 15:21:30,371:INFO: dataset: data
+2020-05-03 15:21:30,371:INFO: optimizer: adam
+2020-05-03 15:21:30,371:INFO: learning_rate: 3e-05
+2020-05-03 15:21:30,371:INFO: momentum: 0.0
+2020-05-03 15:21:30,372:INFO: l2: 1e-08
+2020-05-03 15:21:30,372:INFO: lr_decay: 0
+2020-05-03 15:21:30,372:INFO: batch_size: 32
+2020-05-03 15:21:30,373:INFO: num_epochs: 100
+2020-05-03 15:21:30,373:INFO: train_num: -1
+2020-05-03 15:21:30,373:INFO: dev_num: -1
+2020-05-03 15:21:30,373:INFO: num_outer_iterations: 10
+2020-05-03 15:21:30,373:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-03 15:21:30,374:INFO: max_len: 180
+2020-05-03 15:21:30,374:INFO: full_finetuning: True
+2020-05-03 15:21:30,374:INFO: clip_grad: 5
+2020-05-03 15:21:30,374:INFO: model_folder: saved_model
+2020-05-03 15:21:30,375:INFO: device_num: 0
+2020-05-03 15:21:30,375:INFO: 
+
+2020-05-03 15:21:30,375:INFO: Loading the datasets...
+2020-05-03 15:21:37,190:INFO: Building label idx ...
+2020-05-03 15:21:37,848:INFO: [Training Info] number of instances: 50658
+2020-05-05 11:16:05,555:INFO: mode: pre_train
+2020-05-05 11:16:05,589:INFO: device: cuda
+2020-05-05 11:16:05,589:INFO: seed: 2019
+2020-05-05 11:16:05,589:INFO: digit2zero: True
+2020-05-05 11:16:05,590:INFO: dataset: data
+2020-05-05 11:16:05,590:INFO: optimizer: adam
+2020-05-05 11:16:05,590:INFO: learning_rate: 3e-05
+2020-05-05 11:16:05,591:INFO: momentum: 0.0
+2020-05-05 11:16:05,591:INFO: l2: 1e-08
+2020-05-05 11:16:05,591:INFO: lr_decay: 0
+2020-05-05 11:16:05,591:INFO: batch_size: 32
+2020-05-05 11:16:05,592:INFO: num_epochs: 100
+2020-05-05 11:16:05,592:INFO: train_num: -1
+2020-05-05 11:16:05,592:INFO: dev_num: -1
+2020-05-05 11:16:05,592:INFO: num_outer_iterations: 10
+2020-05-05 11:16:05,592:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 11:16:05,593:INFO: max_len: 180
+2020-05-05 11:16:05,593:INFO: full_finetuning: True
+2020-05-05 11:16:05,593:INFO: clip_grad: 5
+2020-05-05 11:16:05,593:INFO: model_folder: saved_model
+2020-05-05 11:16:05,593:INFO: device_num: 0
+2020-05-05 11:16:05,594:INFO: 
+
+2020-05-05 11:16:05,594:INFO: Loading the datasets...
+2020-05-05 11:16:14,063:INFO: Building label idx ...
+2020-05-05 11:16:14,951:INFO: [Training Info] number of instances: 50658
+2020-05-05 11:16:23,799:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 11:16:23,800:INFO: [Training Info] Training fold pre_train.
+2020-05-05 11:16:23,800:INFO: Initialized from pre-trained Model
+2020-05-05 11:16:23,802:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 11:17:43,034:INFO: mode: pre_train
+2020-05-05 11:17:43,110:INFO: device: cuda
+2020-05-05 11:17:43,111:INFO: seed: 2019
+2020-05-05 11:17:43,111:INFO: digit2zero: True
+2020-05-05 11:17:43,111:INFO: dataset: data
+2020-05-05 11:17:43,112:INFO: optimizer: adam
+2020-05-05 11:17:43,112:INFO: learning_rate: 3e-05
+2020-05-05 11:17:43,112:INFO: momentum: 0.0
+2020-05-05 11:17:43,112:INFO: l2: 1e-08
+2020-05-05 11:17:43,113:INFO: lr_decay: 0
+2020-05-05 11:17:43,113:INFO: batch_size: 32
+2020-05-05 11:17:43,113:INFO: num_epochs: 100
+2020-05-05 11:17:43,113:INFO: train_num: -1
+2020-05-05 11:17:43,113:INFO: dev_num: -1
+2020-05-05 11:17:43,114:INFO: num_outer_iterations: 10
+2020-05-05 11:17:43,114:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 11:17:43,114:INFO: max_len: 180
+2020-05-05 11:17:43,114:INFO: full_finetuning: True
+2020-05-05 11:17:43,115:INFO: clip_grad: 5
+2020-05-05 11:17:43,115:INFO: model_folder: saved_model
+2020-05-05 11:17:43,115:INFO: device_num: 0
+2020-05-05 11:17:43,115:INFO: 
+
+2020-05-05 11:17:43,116:INFO: Loading the datasets...
+2020-05-05 11:17:43,896:INFO: Building label idx ...
+2020-05-05 11:17:43,963:INFO: [Training Info] number of instances: 9999
+2020-05-05 11:17:48,125:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 11:17:48,125:INFO: [Training Info] Training fold pre_train.
+2020-05-05 11:17:48,126:INFO: Initialized from pre-trained Model
+2020-05-05 11:17:48,127:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 11:17:53,843:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 11:17:53,843:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 11:17:53,931:INFO: full finetuning
+2020-05-05 11:18:55,604:INFO: Epoch 1: 133.94159, Time is 49.78s
+2020-05-05 11:18:56,685:INFO: [dev set] Precision: 49.37, Recall: 17.18, F1: 25.49
+2020-05-05 11:18:56,685:INFO: saving the best model...
+2020-05-05 11:20:20,827:INFO: Epoch 2: 100.89912, Time is 50.61s
+2020-05-05 11:20:21,913:INFO: [dev set] Precision: 51.38, Recall: 14.99, F1: 23.20
+2020-05-05 11:21:12,170:INFO: Epoch 3: 93.64112, Time is 50.25s
+2020-05-05 11:21:13,253:INFO: [dev set] Precision: 53.68, Recall: 16.01, F1: 24.66
+2020-05-05 11:22:03,699:INFO: Epoch 4: 89.22583, Time is 50.44s
+2020-05-05 11:22:04,783:INFO: [dev set] Precision: 53.49, Recall: 21.27, F1: 30.44
+2020-05-05 11:22:04,784:INFO: saving the best model...
+2020-05-05 11:23:32,110:INFO: Epoch 5: 86.82783, Time is 52.07s
+2020-05-05 11:23:33,250:INFO: [dev set] Precision: 58.32, Recall: 20.25, F1: 30.06
+2020-05-05 11:24:23,810:INFO: Epoch 6: 84.82937, Time is 50.55s
+2020-05-05 11:24:24,952:INFO: [dev set] Precision: 57.74, Recall: 20.18, F1: 29.90
+2020-05-05 11:25:17,002:INFO: Epoch 7: 84.01097, Time is 52.04s
+2020-05-05 11:25:18,095:INFO: [dev set] Precision: 59.02, Recall: 20.32, F1: 30.23
+2020-05-05 11:26:09,116:INFO: Epoch 8: 81.92422, Time is 51.02s
+2020-05-05 11:26:10,255:INFO: [dev set] Precision: 59.84, Recall: 21.35, F1: 31.47
+2020-05-05 11:26:10,256:INFO: saving the best model...
+2020-05-05 11:27:37,631:INFO: Epoch 9: 81.22931, Time is 50.92s
+2020-05-05 11:27:38,749:INFO: [dev set] Precision: 60.00, Recall: 21.93, F1: 32.12
+2020-05-05 11:27:38,750:INFO: saving the best model...
+2020-05-05 11:29:06,443:INFO: Epoch 10: 80.11283, Time is 51.70s
+2020-05-05 11:29:07,572:INFO: [dev set] Precision: 59.15, Recall: 21.27, F1: 31.29
+2020-05-05 11:29:59,096:INFO: Epoch 11: 79.49115, Time is 51.52s
+2020-05-05 11:30:00,238:INFO: [dev set] Precision: 59.52, Recall: 21.71, F1: 31.82
+2020-05-05 11:32:25,506:INFO: mode: pre_train
+2020-05-05 11:32:25,514:INFO: device: cuda
+2020-05-05 11:32:25,514:INFO: seed: 2019
+2020-05-05 11:32:25,514:INFO: digit2zero: True
+2020-05-05 11:32:25,514:INFO: dataset: data
+2020-05-05 11:32:25,515:INFO: optimizer: adam
+2020-05-05 11:32:25,515:INFO: learning_rate: 3e-05
+2020-05-05 11:32:25,515:INFO: momentum: 0.0
+2020-05-05 11:32:25,515:INFO: l2: 1e-08
+2020-05-05 11:32:25,515:INFO: lr_decay: 0
+2020-05-05 11:32:25,515:INFO: batch_size: 32
+2020-05-05 11:32:25,515:INFO: num_epochs: 100
+2020-05-05 11:32:25,515:INFO: train_num: -1
+2020-05-05 11:32:25,516:INFO: dev_num: -1
+2020-05-05 11:32:25,516:INFO: num_outer_iterations: 10
+2020-05-05 11:32:25,516:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 11:32:25,516:INFO: max_len: 180
+2020-05-05 11:32:25,516:INFO: full_finetuning: True
+2020-05-05 11:32:25,516:INFO: clip_grad: 5
+2020-05-05 11:32:25,516:INFO: model_folder: saved_model
+2020-05-05 11:32:25,516:INFO: device_num: 0
+2020-05-05 11:32:25,516:INFO: 
+
+2020-05-05 11:32:25,516:INFO: Loading the datasets...
+2020-05-05 11:32:26,392:INFO: Building label idx ...
+2020-05-05 11:32:26,469:INFO: [Training Info] number of instances: 9999
+2020-05-05 11:32:31,814:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 11:32:31,815:INFO: [Training Info] Training fold pre_train.
+2020-05-05 11:32:31,815:INFO: Initialized from pre-trained Model
+2020-05-05 11:32:31,817:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 11:32:39,636:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 11:32:39,637:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 11:43:16,095:INFO: mode: pre_train
+2020-05-05 11:43:16,103:INFO: device: cuda
+2020-05-05 11:43:16,103:INFO: seed: 2019
+2020-05-05 11:43:16,104:INFO: digit2zero: True
+2020-05-05 11:43:16,104:INFO: dataset: data
+2020-05-05 11:43:16,104:INFO: optimizer: adam
+2020-05-05 11:43:16,104:INFO: learning_rate: 3e-05
+2020-05-05 11:43:16,104:INFO: momentum: 0.0
+2020-05-05 11:43:16,105:INFO: l2: 1e-08
+2020-05-05 11:43:16,105:INFO: lr_decay: 0
+2020-05-05 11:43:16,105:INFO: batch_size: 32
+2020-05-05 11:43:16,105:INFO: num_epochs: 100
+2020-05-05 11:43:16,105:INFO: train_num: -1
+2020-05-05 11:43:16,105:INFO: dev_num: -1
+2020-05-05 11:43:16,106:INFO: num_outer_iterations: 10
+2020-05-05 11:43:16,106:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 11:43:16,106:INFO: max_len: 180
+2020-05-05 11:43:16,106:INFO: full_finetuning: True
+2020-05-05 11:43:16,107:INFO: clip_grad: 5
+2020-05-05 11:43:16,107:INFO: model_folder: saved_model
+2020-05-05 11:43:16,107:INFO: device_num: 0
+2020-05-05 11:43:16,107:INFO: 
+
+2020-05-05 11:43:16,107:INFO: Loading the datasets...
+2020-05-05 11:43:16,881:INFO: Building label idx ...
+2020-05-05 11:43:16,961:INFO: [Training Info] number of instances: 9999
+2020-05-05 11:43:21,206:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 11:43:21,206:INFO: [Training Info] Training fold pre_train.
+2020-05-05 11:43:21,206:INFO: Initialized from pre-trained Model
+2020-05-05 11:43:21,209:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 11:43:27,144:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 11:43:27,145:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 11:59:56,802:INFO: mode: pre_train
+2020-05-05 11:59:56,855:INFO: device: cuda
+2020-05-05 11:59:56,855:INFO: seed: 2019
+2020-05-05 11:59:56,855:INFO: digit2zero: True
+2020-05-05 11:59:56,856:INFO: dataset: data
+2020-05-05 11:59:56,856:INFO: optimizer: adam
+2020-05-05 11:59:56,856:INFO: learning_rate: 3e-05
+2020-05-05 11:59:56,856:INFO: momentum: 0.0
+2020-05-05 11:59:56,857:INFO: l2: 1e-08
+2020-05-05 11:59:56,857:INFO: lr_decay: 0
+2020-05-05 11:59:56,857:INFO: batch_size: 32
+2020-05-05 11:59:56,857:INFO: num_epochs: 100
+2020-05-05 11:59:56,857:INFO: train_num: -1
+2020-05-05 11:59:56,857:INFO: dev_num: -1
+2020-05-05 11:59:56,858:INFO: num_outer_iterations: 10
+2020-05-05 11:59:56,858:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 11:59:56,858:INFO: max_len: 180
+2020-05-05 11:59:56,858:INFO: full_finetuning: True
+2020-05-05 11:59:56,859:INFO: clip_grad: 5
+2020-05-05 11:59:56,859:INFO: model_folder: saved_model
+2020-05-05 11:59:56,859:INFO: device_num: 0
+2020-05-05 11:59:56,859:INFO: 
+
+2020-05-05 11:59:56,859:INFO: Loading the datasets...
+2020-05-05 11:59:58,023:INFO: Building label idx ...
+2020-05-05 11:59:58,140:INFO: [Training Info] number of instances: 9999
+2020-05-05 12:00:03,945:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 12:00:03,945:INFO: [Training Info] Training fold pre_train.
+2020-05-05 12:00:03,946:INFO: Initialized from pre-trained Model
+2020-05-05 12:00:03,947:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 12:00:12,496:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 12:00:12,496:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 12:07:29,051:INFO: mode: pre_train
+2020-05-05 12:07:29,070:INFO: device: cuda
+2020-05-05 12:07:29,070:INFO: seed: 2019
+2020-05-05 12:07:29,070:INFO: digit2zero: True
+2020-05-05 12:07:29,070:INFO: dataset: data
+2020-05-05 12:07:29,071:INFO: optimizer: adam
+2020-05-05 12:07:29,071:INFO: learning_rate: 3e-05
+2020-05-05 12:07:29,071:INFO: momentum: 0.0
+2020-05-05 12:07:29,071:INFO: l2: 1e-08
+2020-05-05 12:07:29,071:INFO: lr_decay: 0
+2020-05-05 12:07:29,071:INFO: batch_size: 32
+2020-05-05 12:07:29,071:INFO: num_epochs: 100
+2020-05-05 12:07:29,071:INFO: train_num: -1
+2020-05-05 12:07:29,072:INFO: dev_num: -1
+2020-05-05 12:07:29,072:INFO: num_outer_iterations: 10
+2020-05-05 12:07:29,072:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 12:07:29,072:INFO: max_len: 180
+2020-05-05 12:07:29,072:INFO: full_finetuning: True
+2020-05-05 12:07:29,072:INFO: clip_grad: 5
+2020-05-05 12:07:29,072:INFO: model_folder: saved_model
+2020-05-05 12:07:29,072:INFO: device_num: 0
+2020-05-05 12:07:29,073:INFO: 
+
+2020-05-05 12:07:29,073:INFO: Loading the datasets...
+2020-05-05 12:07:29,894:INFO: Building label idx ...
+2020-05-05 12:07:29,988:INFO: [Training Info] number of instances: 9999
+2020-05-05 12:07:34,827:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 12:07:34,828:INFO: [Training Info] Training fold pre_train.
+2020-05-05 12:07:34,828:INFO: Initialized from pre-trained Model
+2020-05-05 12:07:34,831:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 12:07:40,666:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 12:07:40,667:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 12:07:50,864:INFO: full finetuning
+2020-05-05 13:33:35,690:INFO: mode: pre_train
+2020-05-05 13:33:35,698:INFO: device: cuda
+2020-05-05 13:33:35,699:INFO: seed: 2019
+2020-05-05 13:33:35,699:INFO: digit2zero: True
+2020-05-05 13:33:35,700:INFO: dataset: data
+2020-05-05 13:33:35,700:INFO: optimizer: adam
+2020-05-05 13:33:35,701:INFO: learning_rate: 5e-05
+2020-05-05 13:33:35,701:INFO: momentum: 0.0
+2020-05-05 13:33:35,701:INFO: l2: 1e-08
+2020-05-05 13:33:35,702:INFO: lr_decay: 0
+2020-05-05 13:33:35,702:INFO: batch_size: 32
+2020-05-05 13:33:35,702:INFO: num_epochs: 100
+2020-05-05 13:33:35,703:INFO: train_num: -1
+2020-05-05 13:33:35,703:INFO: dev_num: -1
+2020-05-05 13:33:35,703:INFO: num_outer_iterations: 10
+2020-05-05 13:33:35,703:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 13:33:35,703:INFO: max_len: 180
+2020-05-05 13:33:35,704:INFO: full_finetuning: True
+2020-05-05 13:33:35,704:INFO: clip_grad: 5
+2020-05-05 13:33:35,704:INFO: model_folder: saved_model
+2020-05-05 13:33:35,704:INFO: device_num: 0
+2020-05-05 13:33:35,704:INFO: 
+
+2020-05-05 13:33:35,704:INFO: Loading the datasets...
+2020-05-05 13:33:46,416:INFO: Building label idx ...
+2020-05-05 13:33:47,577:INFO: [Training Info] number of instances: 50658
+2020-05-05 13:33:58,714:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 13:33:58,714:INFO: [Training Info] Training fold pre_train.
+2020-05-05 13:33:58,714:INFO: Initialized from pre-trained Model
+2020-05-05 13:33:58,716:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 13:34:09,101:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 13:34:09,102:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 13:34:09,207:INFO: full finetuning
+2020-05-05 13:40:38,911:INFO: mode: pre_train
+2020-05-05 13:40:38,919:INFO: device: cuda
+2020-05-05 13:40:38,919:INFO: seed: 2019
+2020-05-05 13:40:38,919:INFO: digit2zero: True
+2020-05-05 13:40:38,920:INFO: dataset: data
+2020-05-05 13:40:38,920:INFO: optimizer: adam
+2020-05-05 13:40:38,920:INFO: learning_rate: 5e-05
+2020-05-05 13:40:38,920:INFO: momentum: 0.0
+2020-05-05 13:40:38,920:INFO: l2: 1e-08
+2020-05-05 13:40:38,920:INFO: lr_decay: 0
+2020-05-05 13:40:38,921:INFO: batch_size: 32
+2020-05-05 13:40:38,921:INFO: num_epochs: 100
+2020-05-05 13:40:38,921:INFO: train_num: -1
+2020-05-05 13:40:38,921:INFO: dev_num: -1
+2020-05-05 13:40:38,921:INFO: num_outer_iterations: 10
+2020-05-05 13:40:38,922:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 13:40:38,922:INFO: max_len: 180
+2020-05-05 13:40:38,922:INFO: full_finetuning: True
+2020-05-05 13:40:38,922:INFO: clip_grad: 5
+2020-05-05 13:40:38,922:INFO: model_folder: saved_model
+2020-05-05 13:40:38,922:INFO: device_num: 0
+2020-05-05 13:40:38,923:INFO: 
+
+2020-05-05 13:40:38,923:INFO: Loading the datasets...
+2020-05-05 13:40:52,385:INFO: Building label idx ...
+2020-05-05 13:40:53,744:INFO: [Training Info] number of instances: 50658
+2020-05-05 13:41:08,411:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 13:41:08,413:INFO: [Training Info] Training fold pre_train.
+2020-05-05 13:41:08,413:INFO: Initialized from pre-trained Model
+2020-05-05 13:41:08,415:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 13:41:16,531:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 13:41:16,532:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 13:41:16,638:INFO: full finetuning
+2020-05-05 13:48:21,844:INFO: Epoch 1: 183.50946, Time is 425.20s
+2020-05-05 13:48:31,688:INFO: [dev set] Precision: 81.96, Recall: 83.45, F1: 82.70
+2020-05-05 13:48:31,689:INFO: saving the best model...
+2020-05-05 13:56:09,354:INFO: Epoch 2: 120.39280, Time is 420.32s
+2020-05-05 13:56:18,933:INFO: [dev set] Precision: 82.64, Recall: 83.93, F1: 83.28
+2020-05-05 13:56:18,934:INFO: saving the best model...
+2020-05-05 14:03:59,420:INFO: Epoch 3: 112.20272, Time is 423.53s
+2020-05-05 14:04:09,298:INFO: [dev set] Precision: 83.27, Recall: 84.23, F1: 83.75
+2020-05-05 14:04:09,299:INFO: saving the best model...
+2020-05-05 14:11:50,100:INFO: Epoch 4: 107.61767, Time is 422.36s
+2020-05-05 14:11:59,856:INFO: [dev set] Precision: 83.41, Recall: 84.68, F1: 84.04
+2020-05-05 14:11:59,857:INFO: saving the best model...
+2020-05-05 14:19:39,198:INFO: Epoch 5: 104.30555, Time is 420.15s
+2020-05-05 14:19:48,932:INFO: [dev set] Precision: 83.72, Recall: 84.86, F1: 84.29
+2020-05-05 14:19:48,934:INFO: saving the best model...
+2020-05-05 14:27:40,896:INFO: Epoch 6: 101.40915, Time is 427.40s
+2020-05-05 14:27:50,750:INFO: [dev set] Precision: 84.09, Recall: 84.97, F1: 84.53
+2020-05-05 14:27:50,751:INFO: saving the best model...
+2020-05-05 14:35:32,240:INFO: Epoch 7: 99.86277, Time is 418.92s
+2020-05-05 14:35:42,007:INFO: [dev set] Precision: 84.41, Recall: 85.05, F1: 84.73
+2020-05-05 14:35:42,008:INFO: saving the best model...
+2020-05-05 14:43:18,911:INFO: Epoch 8: 98.26804, Time is 417.93s
+2020-05-05 14:43:28,654:INFO: [dev set] Precision: 84.65, Recall: 85.11, F1: 84.88
+2020-05-05 14:43:28,655:INFO: saving the best model...
+2020-05-05 14:51:11,883:INFO: Epoch 9: 96.26379, Time is 426.64s
+2020-05-05 14:51:21,736:INFO: [dev set] Precision: 84.48, Recall: 85.13, F1: 84.80
+2020-05-05 14:58:16,763:INFO: Epoch 10: 95.51176, Time is 415.02s
+2020-05-05 14:58:26,507:INFO: [dev set] Precision: 84.28, Recall: 85.21, F1: 84.74
+2020-05-05 15:05:23,623:INFO: Epoch 11: 94.41144, Time is 417.11s
+2020-05-05 15:05:33,295:INFO: [dev set] Precision: 84.22, Recall: 85.28, F1: 84.75
+2020-05-05 15:12:38,270:INFO: Epoch 12: 93.12531, Time is 424.97s
+2020-05-05 15:12:48,128:INFO: [dev set] Precision: 84.37, Recall: 85.27, F1: 84.82
+2020-05-05 15:19:45,016:INFO: Epoch 13: 92.06280, Time is 416.88s
+2020-05-05 15:19:54,744:INFO: [dev set] Precision: 84.46, Recall: 85.37, F1: 84.92
+2020-05-05 15:19:54,745:INFO: saving the best model...
+2020-05-05 15:27:31,029:INFO: Epoch 14: 91.35725, Time is 417.86s
+2020-05-05 15:27:40,751:INFO: [dev set] Precision: 84.31, Recall: 85.44, F1: 84.87
+2020-05-05 17:27:30,034:INFO: mode: pre_train
+2020-05-05 17:27:30,041:INFO: device: cuda
+2020-05-05 17:27:30,041:INFO: seed: 2019
+2020-05-05 17:27:30,041:INFO: digit2zero: True
+2020-05-05 17:27:30,041:INFO: dataset: data
+2020-05-05 17:27:30,042:INFO: optimizer: adam
+2020-05-05 17:27:30,042:INFO: learning_rate: 5e-05
+2020-05-05 17:27:30,042:INFO: momentum: 0.0
+2020-05-05 17:27:30,042:INFO: l2: 1e-08
+2020-05-05 17:27:30,043:INFO: lr_decay: 0
+2020-05-05 17:27:30,043:INFO: batch_size: 32
+2020-05-05 17:27:30,043:INFO: num_epochs: 100
+2020-05-05 17:27:30,043:INFO: train_num: -1
+2020-05-05 17:27:30,043:INFO: dev_num: -1
+2020-05-05 17:27:30,044:INFO: num_outer_iterations: 10
+2020-05-05 17:27:30,044:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 17:27:30,044:INFO: max_len: 180
+2020-05-05 17:27:30,044:INFO: full_finetuning: True
+2020-05-05 17:27:30,044:INFO: clip_grad: 5
+2020-05-05 17:27:30,044:INFO: model_folder: saved_model
+2020-05-05 17:27:30,045:INFO: device_num: 0
+2020-05-05 17:27:30,045:INFO: 
+
+2020-05-05 17:27:30,045:INFO: Loading the datasets...
+2020-05-05 17:43:14,004:INFO: mode: pre_train
+2020-05-05 17:43:14,032:INFO: device: cuda
+2020-05-05 17:43:14,032:INFO: seed: 2019
+2020-05-05 17:43:14,032:INFO: digit2zero: True
+2020-05-05 17:43:14,032:INFO: dataset: data
+2020-05-05 17:43:14,033:INFO: optimizer: adam
+2020-05-05 17:43:14,033:INFO: learning_rate: 5e-05
+2020-05-05 17:43:14,033:INFO: momentum: 0.0
+2020-05-05 17:43:14,033:INFO: l2: 1e-08
+2020-05-05 17:43:14,033:INFO: lr_decay: 0
+2020-05-05 17:43:14,034:INFO: batch_size: 32
+2020-05-05 17:43:14,034:INFO: num_epochs: 100
+2020-05-05 17:43:14,034:INFO: train_num: -1
+2020-05-05 17:43:14,034:INFO: dev_num: -1
+2020-05-05 17:43:14,034:INFO: num_outer_iterations: 10
+2020-05-05 17:43:14,034:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 17:43:14,034:INFO: max_len: 180
+2020-05-05 17:43:14,035:INFO: full_finetuning: True
+2020-05-05 17:43:14,035:INFO: clip_grad: 5
+2020-05-05 17:43:14,035:INFO: model_folder: saved_model
+2020-05-05 17:43:14,035:INFO: device_num: 0
+2020-05-05 17:43:14,035:INFO: 
+
+2020-05-05 17:43:14,035:INFO: Loading the datasets...
+2020-05-05 17:43:24,323:INFO: Building label idx ...
+2020-05-05 17:43:25,225:INFO: [Training Info] number of instances: 50658
+2020-05-05 17:43:34,666:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 17:43:34,667:INFO: [Training Info] Training fold pre_train.
+2020-05-05 17:43:34,667:INFO: Initialized from pre-trained Model
+2020-05-05 17:43:34,671:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 17:43:42,138:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 17:43:42,139:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 17:43:42,237:INFO: full finetuning
+2020-05-05 17:50:43,956:INFO: Epoch 1: 30.18051, Time is 421.72s
+2020-05-05 17:50:53,824:INFO: [dev set] Precision: 89.10, Recall: 90.82, F1: 89.96
+2020-05-05 17:50:53,825:INFO: saving the best model...
+2020-05-05 17:58:32,756:INFO: Epoch 2: 12.90934, Time is 422.46s
+2020-05-05 17:58:42,382:INFO: [dev set] Precision: 89.58, Recall: 91.45, F1: 90.51
+2020-05-05 17:58:42,382:INFO: saving the best model...
+2020-05-05 18:06:19,825:INFO: Epoch 3: 11.74432, Time is 421.41s
+2020-05-05 18:06:29,482:INFO: [dev set] Precision: 90.40, Recall: 91.29, F1: 90.84
+2020-05-05 18:06:29,483:INFO: saving the best model...
+2020-05-05 18:14:07,407:INFO: Epoch 4: 10.68809, Time is 422.86s
+2020-05-05 18:14:17,141:INFO: [dev set] Precision: 90.79, Recall: 91.45, F1: 91.12
+2020-05-05 18:14:17,142:INFO: saving the best model...
+2020-05-05 18:21:47,791:INFO: Epoch 5: 10.59642, Time is 420.71s
+2020-05-05 18:21:57,478:INFO: [dev set] Precision: 91.21, Recall: 91.40, F1: 91.30
+2020-05-05 18:21:57,479:INFO: saving the best model...
+2020-05-05 18:29:38,854:INFO: Epoch 6: 10.24901, Time is 422.05s
+2020-05-05 18:29:48,694:INFO: [dev set] Precision: 91.16, Recall: 91.45, F1: 91.31
+2020-05-05 18:29:48,695:INFO: saving the best model...
+2020-05-05 18:37:31,648:INFO: Epoch 7: 10.09223, Time is 425.18s
+2020-05-05 18:37:41,120:INFO: [dev set] Precision: 91.16, Recall: 91.45, F1: 91.31
+2020-05-05 18:44:50,421:INFO: Epoch 8: 9.61666, Time is 429.30s
+2020-05-05 18:44:59,936:INFO: [dev set] Precision: 91.23, Recall: 91.66, F1: 91.44
+2020-05-05 18:44:59,937:INFO: saving the best model...
+2020-05-05 18:52:40,765:INFO: Epoch 9: 9.58679, Time is 428.48s
+2020-05-05 18:52:50,249:INFO: [dev set] Precision: 91.31, Recall: 91.50, F1: 91.41
+2020-05-05 18:59:59,514:INFO: Epoch 10: 9.37946, Time is 429.26s
+2020-05-05 19:00:08,984:INFO: [dev set] Precision: 91.60, Recall: 91.50, F1: 91.55
+2020-05-05 19:00:08,985:INFO: saving the best model...
+2020-05-05 19:07:50,591:INFO: Epoch 11: 9.19759, Time is 429.18s
+2020-05-05 19:08:00,128:INFO: [dev set] Precision: 91.41, Recall: 91.55, F1: 91.48
+2020-05-05 19:15:09,482:INFO: Epoch 12: 9.00493, Time is 429.35s
+2020-05-05 19:15:18,953:INFO: [dev set] Precision: 91.37, Recall: 91.61, F1: 91.49
+2020-05-05 19:22:25,009:INFO: Epoch 13: 8.99507, Time is 426.05s
+2020-05-05 19:22:34,428:INFO: [dev set] Precision: 91.41, Recall: 91.50, F1: 91.45
+2020-05-05 19:29:40,823:INFO: Epoch 14: 8.84885, Time is 426.39s
+2020-05-05 19:29:50,265:INFO: [dev set] Precision: 91.37, Recall: 91.66, F1: 91.51
+2020-05-05 19:36:55,772:INFO: Epoch 15: 8.58961, Time is 425.50s
+2020-05-05 19:37:05,201:INFO: [dev set] Precision: 91.60, Recall: 91.55, F1: 91.58
+2020-05-05 19:37:05,201:INFO: saving the best model...
+2020-05-05 19:44:47,599:INFO: Epoch 16: 8.84884, Time is 425.28s
+2020-05-05 19:44:57,066:INFO: [dev set] Precision: 91.60, Recall: 91.55, F1: 91.58
+2020-05-05 19:52:02,749:INFO: Epoch 17: 8.73443, Time is 425.68s
+2020-05-05 19:52:12,268:INFO: [dev set] Precision: 91.74, Recall: 91.50, F1: 91.62
+2020-05-05 19:52:12,268:INFO: saving the best model...
+2020-05-05 19:59:47,619:INFO: Epoch 18: 8.62818, Time is 423.38s
+2020-05-05 19:59:57,124:INFO: [dev set] Precision: 91.75, Recall: 91.66, F1: 91.71
+2020-05-05 19:59:57,125:INFO: saving the best model...
+2020-05-05 20:07:35,351:INFO: Epoch 19: 8.49316, Time is 422.66s
+2020-05-05 20:07:44,899:INFO: [dev set] Precision: 91.84, Recall: 91.55, F1: 91.70
+2020-05-05 20:14:48,550:INFO: Epoch 20: 8.49282, Time is 423.65s
+2020-05-05 20:14:57,999:INFO: [dev set] Precision: 91.94, Recall: 91.55, F1: 91.75
+2020-05-05 20:14:57,999:INFO: saving the best model...
+2020-05-05 20:22:46,148:INFO: Epoch 21: 8.32937, Time is 423.51s
+2020-05-05 20:22:55,597:INFO: [dev set] Precision: 91.99, Recall: 91.61, F1: 91.80
+2020-05-05 20:22:55,598:INFO: saving the best model...
+2020-05-05 20:30:39,035:INFO: Epoch 22: 8.36023, Time is 422.82s
+2020-05-05 20:30:48,507:INFO: [dev set] Precision: 92.09, Recall: 91.61, F1: 91.85
+2020-05-05 20:30:48,508:INFO: saving the best model...
+2020-05-05 20:38:28,605:INFO: Epoch 23: 8.34868, Time is 423.27s
+2020-05-05 20:38:38,135:INFO: [dev set] Precision: 92.05, Recall: 91.71, F1: 91.88
+2020-05-05 20:38:38,135:INFO: saving the best model...
+2020-05-05 20:46:13,939:INFO: Epoch 24: 8.25176, Time is 420.49s
+2020-05-05 20:46:23,408:INFO: [dev set] Precision: 92.09, Recall: 91.71, F1: 91.90
+2020-05-05 20:46:23,408:INFO: saving the best model...
+2020-05-05 20:54:10,039:INFO: Epoch 25: 8.02533, Time is 422.12s
+2020-05-05 20:54:19,529:INFO: [dev set] Precision: 92.05, Recall: 91.81, F1: 91.93
+2020-05-05 20:54:19,530:INFO: saving the best model...
+2020-05-05 21:11:20,309:INFO: mode: pre_train
+2020-05-05 21:11:20,317:INFO: device: cuda
+2020-05-05 21:11:20,317:INFO: seed: 2019
+2020-05-05 21:11:20,317:INFO: digit2zero: True
+2020-05-05 21:11:20,317:INFO: dataset: data
+2020-05-05 21:11:20,318:INFO: optimizer: adam
+2020-05-05 21:11:20,318:INFO: learning_rate: 5e-05
+2020-05-05 21:11:20,318:INFO: momentum: 0.0
+2020-05-05 21:11:20,318:INFO: l2: 1e-08
+2020-05-05 21:11:20,318:INFO: lr_decay: 0
+2020-05-05 21:11:20,319:INFO: batch_size: 32
+2020-05-05 21:11:20,319:INFO: num_epochs: 100
+2020-05-05 21:11:20,319:INFO: train_num: -1
+2020-05-05 21:11:20,319:INFO: dev_num: -1
+2020-05-05 21:11:20,319:INFO: num_outer_iterations: 10
+2020-05-05 21:11:20,320:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 21:11:20,320:INFO: max_len: 180
+2020-05-05 21:11:20,320:INFO: full_finetuning: True
+2020-05-05 21:11:20,320:INFO: clip_grad: 5
+2020-05-05 21:11:20,320:INFO: model_folder: saved_model
+2020-05-05 21:11:20,320:INFO: device_num: 0
+2020-05-05 21:11:20,321:INFO: 
+
+2020-05-05 21:11:20,321:INFO: Loading the datasets...
+2020-05-05 21:11:28,645:INFO: Building label idx ...
+2020-05-05 21:11:29,420:INFO: [Training Info] number of instances: 50658
+2020-05-05 21:11:38,271:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 21:11:38,272:INFO: [Training Info] Training fold pre_train.
+2020-05-05 21:11:38,272:INFO: Initialized from pre-trained Model
+2020-05-05 21:11:38,277:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 21:11:47,579:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 21:11:47,579:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 21:11:47,674:INFO: full finetuning
+2020-05-05 21:18:51,800:INFO: Epoch 1: 30.18051, Time is 424.12s
+2020-05-05 21:19:01,269:INFO: [dev set] Precision: 89.10, Recall: 90.82, F1: 89.96
+2020-05-05 21:19:01,270:INFO: saving the best model...
+2020-05-05 21:21:38,601:INFO: mode: pre_train
+2020-05-05 21:21:38,606:INFO: device: cuda
+2020-05-05 21:21:38,606:INFO: seed: 2019
+2020-05-05 21:21:38,607:INFO: digit2zero: True
+2020-05-05 21:21:38,607:INFO: dataset: data
+2020-05-05 21:21:38,607:INFO: optimizer: adam
+2020-05-05 21:21:38,607:INFO: learning_rate: 5e-05
+2020-05-05 21:21:38,608:INFO: momentum: 0.0
+2020-05-05 21:21:38,608:INFO: l2: 1e-08
+2020-05-05 21:21:38,608:INFO: lr_decay: 0
+2020-05-05 21:21:38,608:INFO: batch_size: 32
+2020-05-05 21:21:38,609:INFO: num_epochs: 100
+2020-05-05 21:21:38,609:INFO: train_num: -1
+2020-05-05 21:21:38,609:INFO: dev_num: -1
+2020-05-05 21:21:38,609:INFO: num_outer_iterations: 10
+2020-05-05 21:21:38,609:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 21:21:38,610:INFO: max_len: 180
+2020-05-05 21:21:38,610:INFO: full_finetuning: True
+2020-05-05 21:21:38,610:INFO: clip_grad: 5
+2020-05-05 21:21:38,610:INFO: model_folder: saved_model
+2020-05-05 21:21:38,610:INFO: device_num: 0
+2020-05-05 21:21:38,611:INFO: 
+
+2020-05-05 21:21:38,611:INFO: Loading the datasets...
+2020-05-05 21:21:39,447:INFO: Building label idx ...
+2020-05-05 21:21:39,561:INFO: [Training Info] number of instances: 9999
+2020-05-05 21:21:44,030:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 21:21:44,030:INFO: [Training Info] Training fold pre_train.
+2020-05-05 21:21:44,030:INFO: Initialized from pre-trained Model
+2020-05-05 21:21:44,032:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 21:22:15,869:INFO: mode: pre_train
+2020-05-05 21:22:15,876:INFO: device: cuda
+2020-05-05 21:22:15,876:INFO: seed: 2019
+2020-05-05 21:22:15,876:INFO: digit2zero: True
+2020-05-05 21:22:15,877:INFO: dataset: data
+2020-05-05 21:22:15,877:INFO: optimizer: adam
+2020-05-05 21:22:15,877:INFO: learning_rate: 5e-05
+2020-05-05 21:22:15,878:INFO: momentum: 0.0
+2020-05-05 21:22:15,878:INFO: l2: 1e-08
+2020-05-05 21:22:15,878:INFO: lr_decay: 0
+2020-05-05 21:22:15,878:INFO: batch_size: 32
+2020-05-05 21:22:15,878:INFO: num_epochs: 100
+2020-05-05 21:22:15,879:INFO: train_num: -1
+2020-05-05 21:22:15,879:INFO: dev_num: -1
+2020-05-05 21:22:15,879:INFO: num_outer_iterations: 10
+2020-05-05 21:22:15,879:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 21:22:15,879:INFO: max_len: 180
+2020-05-05 21:22:15,880:INFO: full_finetuning: True
+2020-05-05 21:22:15,880:INFO: clip_grad: 5
+2020-05-05 21:22:15,880:INFO: model_folder: saved_model
+2020-05-05 21:22:15,880:INFO: device_num: 0
+2020-05-05 21:22:15,881:INFO: 
+
+2020-05-05 21:22:15,881:INFO: Loading the datasets...
+2020-05-05 21:22:16,665:INFO: Building label idx ...
+2020-05-05 21:22:16,771:INFO: [Training Info] number of instances: 9999
+2020-05-05 21:22:21,018:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 21:22:21,019:INFO: [Training Info] Training fold pre_train.
+2020-05-05 21:22:21,019:INFO: Initialized from pre-trained Model
+2020-05-05 21:22:21,021:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 21:22:28,682:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 21:22:28,683:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 21:33:51,165:INFO: mode: pre_train
+2020-05-05 21:33:51,172:INFO: device: cuda
+2020-05-05 21:33:51,173:INFO: seed: 2019
+2020-05-05 21:33:51,173:INFO: digit2zero: True
+2020-05-05 21:33:51,173:INFO: dataset: data
+2020-05-05 21:33:51,173:INFO: optimizer: adam
+2020-05-05 21:33:51,174:INFO: learning_rate: 5e-05
+2020-05-05 21:33:51,174:INFO: momentum: 0.0
+2020-05-05 21:33:51,174:INFO: l2: 1e-08
+2020-05-05 21:33:51,174:INFO: lr_decay: 0
+2020-05-05 21:33:51,175:INFO: batch_size: 32
+2020-05-05 21:33:51,175:INFO: num_epochs: 100
+2020-05-05 21:33:51,175:INFO: train_num: -1
+2020-05-05 21:33:51,175:INFO: dev_num: -1
+2020-05-05 21:33:51,176:INFO: num_outer_iterations: 10
+2020-05-05 21:33:51,176:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 21:33:51,176:INFO: max_len: 180
+2020-05-05 21:33:51,176:INFO: full_finetuning: True
+2020-05-05 21:33:51,176:INFO: clip_grad: 5
+2020-05-05 21:33:51,177:INFO: model_folder: saved_model
+2020-05-05 21:33:51,177:INFO: device_num: 0
+2020-05-05 21:33:51,177:INFO: 
+
+2020-05-05 21:33:51,177:INFO: Loading the datasets...
+2020-05-05 21:33:51,969:INFO: Building label idx ...
+2020-05-05 21:33:52,063:INFO: [Training Info] number of instances: 9999
+2020-05-05 21:33:56,254:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 21:33:56,254:INFO: [Training Info] Training fold pre_train.
+2020-05-05 21:33:56,255:INFO: Initialized from pre-trained Model
+2020-05-05 21:33:56,260:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 21:34:04,084:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 21:34:04,085:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 21:34:18,412:INFO: full finetuning
+2020-05-05 21:35:09,459:INFO: Epoch 1: 136.75267, Time is 51.04s
+2020-05-05 21:35:10,542:INFO: [dev set] Precision: 24.00, Recall: 1.75, F1: 3.27
+2020-05-05 21:35:10,543:INFO: saving the best model...
+2020-05-05 21:36:44,198:INFO: Epoch 2: 106.14159, Time is 51.55s
+2020-05-05 21:36:45,272:INFO: [dev set] Precision: 40.59, Recall: 7.09, F1: 12.07
+2020-05-05 21:36:45,273:INFO: saving the best model...
+2020-05-05 21:38:18,452:INFO: Epoch 3: 95.71331, Time is 51.36s
+2020-05-05 21:38:19,533:INFO: [dev set] Precision: 43.98, Recall: 14.69, F1: 22.03
+2020-05-05 21:38:19,534:INFO: saving the best model...
+2020-05-05 21:39:49,812:INFO: Epoch 4: 88.27862, Time is 51.58s
+2020-05-05 21:39:50,909:INFO: [dev set] Precision: 43.06, Recall: 19.96, F1: 27.27
+2020-05-05 21:39:50,910:INFO: saving the best model...
+2020-05-05 21:41:20,689:INFO: Epoch 5: 84.27197, Time is 51.49s
+2020-05-05 21:41:21,764:INFO: [dev set] Precision: 48.40, Recall: 19.96, F1: 28.26
+2020-05-05 21:41:21,765:INFO: saving the best model...
+2020-05-05 21:42:56,927:INFO: Epoch 6: 81.64794, Time is 51.62s
+2020-05-05 21:42:58,025:INFO: [dev set] Precision: 52.51, Recall: 19.15, F1: 28.07
+2020-05-05 21:43:50,221:INFO: Epoch 7: 79.62353, Time is 52.19s
+2020-05-05 21:43:51,314:INFO: [dev set] Precision: 53.22, Recall: 20.54, F1: 29.64
+2020-05-05 21:43:51,315:INFO: saving the best model...
+2020-05-05 21:45:21,917:INFO: Epoch 8: 77.48633, Time is 51.75s
+2020-05-05 21:45:22,990:INFO: [dev set] Precision: 54.84, Recall: 20.69, F1: 30.04
+2020-05-05 21:45:22,991:INFO: saving the best model...
+2020-05-05 21:47:00,417:INFO: Epoch 9: 75.85235, Time is 51.97s
+2020-05-05 21:47:01,510:INFO: [dev set] Precision: 55.25, Recall: 21.93, F1: 31.40
+2020-05-05 21:47:01,511:INFO: saving the best model...
+2020-05-05 21:48:31,671:INFO: Epoch 10: 74.42045, Time is 51.77s
+2020-05-05 21:48:32,760:INFO: [dev set] Precision: 56.55, Recall: 22.08, F1: 31.76
+2020-05-05 21:48:32,761:INFO: saving the best model...
+2020-05-05 21:50:02,181:INFO: Epoch 11: 73.49014, Time is 51.84s
+2020-05-05 21:50:03,259:INFO: [dev set] Precision: 56.98, Recall: 22.37, F1: 32.13
+2020-05-05 21:50:03,260:INFO: saving the best model...
+2020-05-05 21:51:33,027:INFO: Epoch 12: 72.96990, Time is 51.73s
+2020-05-05 21:51:34,105:INFO: [dev set] Precision: 58.57, Recall: 22.22, F1: 32.22
+2020-05-05 21:51:34,106:INFO: saving the best model...
+2020-05-05 21:53:04,690:INFO: Epoch 13: 71.94663, Time is 51.90s
+2020-05-05 21:53:05,767:INFO: [dev set] Precision: 59.66, Recall: 22.81, F1: 33.00
+2020-05-05 21:53:05,768:INFO: saving the best model...
+2020-05-05 21:54:48,139:INFO: Epoch 14: 70.93720, Time is 51.55s
+2020-05-05 21:54:49,210:INFO: [dev set] Precision: 59.47, Recall: 22.95, F1: 33.12
+2020-05-05 21:54:49,211:INFO: saving the best model...
+2020-05-05 21:56:18,803:INFO: Epoch 15: 69.67319, Time is 52.40s
+2020-05-05 21:56:19,879:INFO: [dev set] Precision: 59.36, Recall: 22.95, F1: 33.10
+2020-05-05 21:57:12,428:INFO: Epoch 16: 69.23281, Time is 52.55s
+2020-05-05 21:57:13,498:INFO: [dev set] Precision: 58.99, Recall: 23.98, F1: 34.10
+2020-05-05 21:57:13,499:INFO: saving the best model...
+2020-05-05 21:58:49,370:INFO: Epoch 17: 68.63329, Time is 52.41s
+2020-05-05 21:58:50,441:INFO: [dev set] Precision: 59.23, Recall: 23.68, F1: 33.84
+2020-05-05 21:59:42,868:INFO: Epoch 18: 68.68506, Time is 52.42s
+2020-05-05 21:59:43,938:INFO: [dev set] Precision: 59.74, Recall: 23.98, F1: 34.22
+2020-05-05 21:59:43,939:INFO: saving the best model...
+2020-05-05 22:01:21,625:INFO: Epoch 19: 66.85254, Time is 52.96s
+2020-05-05 22:01:22,699:INFO: [dev set] Precision: 59.70, Recall: 23.61, F1: 33.84
+2020-05-05 22:02:15,783:INFO: Epoch 20: 66.70332, Time is 53.08s
+2020-05-05 22:02:16,855:INFO: [dev set] Precision: 60.98, Recall: 23.54, F1: 33.97
+2020-05-05 22:03:10,049:INFO: Epoch 21: 66.65194, Time is 53.19s
+2020-05-05 22:03:11,121:INFO: [dev set] Precision: 60.97, Recall: 22.95, F1: 33.35
+2020-05-05 22:04:04,367:INFO: Epoch 22: 66.00061, Time is 53.24s
+2020-05-05 22:04:05,440:INFO: [dev set] Precision: 60.33, Recall: 24.12, F1: 34.46
+2020-05-05 22:04:05,441:INFO: saving the best model...
+2020-05-05 22:05:42,588:INFO: Epoch 23: 65.78949, Time is 53.03s
+2020-05-05 22:05:43,660:INFO: [dev set] Precision: 61.30, Recall: 24.20, F1: 34.70
+2020-05-05 22:05:43,661:INFO: saving the best model...
+2020-05-05 22:07:16,713:INFO: Epoch 24: 65.18820, Time is 53.07s
+2020-05-05 22:07:17,782:INFO: [dev set] Precision: 61.44, Recall: 24.34, F1: 34.87
+2020-05-05 22:07:17,783:INFO: saving the best model...
+2020-05-05 22:08:54,407:INFO: Epoch 25: 65.06333, Time is 53.23s
+2020-05-05 22:08:55,480:INFO: [dev set] Precision: 62.48, Recall: 23.25, F1: 33.88
+2020-05-05 22:09:48,759:INFO: Epoch 26: 64.65535, Time is 53.28s
+2020-05-05 22:09:49,829:INFO: [dev set] Precision: 61.61, Recall: 24.05, F1: 34.60
+2020-05-05 22:10:42,996:INFO: Epoch 27: 64.44050, Time is 53.16s
+2020-05-05 22:10:44,066:INFO: [dev set] Precision: 62.15, Recall: 24.12, F1: 34.76
+2020-05-05 22:11:37,041:INFO: Epoch 28: 64.42361, Time is 52.97s
+2020-05-05 22:11:38,111:INFO: [dev set] Precision: 62.15, Recall: 24.49, F1: 35.13
+2020-05-05 22:11:38,112:INFO: saving the best model...
+2020-05-05 22:13:10,359:INFO: Epoch 29: 63.62771, Time is 52.65s
+2020-05-05 22:13:11,428:INFO: [dev set] Precision: 62.59, Recall: 24.34, F1: 35.05
+2020-05-05 22:14:04,603:INFO: Epoch 30: 63.82633, Time is 53.17s
+2020-05-05 22:14:05,676:INFO: [dev set] Precision: 62.52, Recall: 24.27, F1: 34.97
+2020-05-05 22:14:58,805:INFO: Epoch 31: 63.58204, Time is 53.13s
+2020-05-05 22:14:59,880:INFO: [dev set] Precision: 62.43, Recall: 24.78, F1: 35.48
+2020-05-05 22:14:59,881:INFO: saving the best model...
+2020-05-05 22:16:33,552:INFO: Epoch 32: 62.44276, Time is 53.27s
+2020-05-05 22:16:34,624:INFO: [dev set] Precision: 63.08, Recall: 24.85, F1: 35.66
+2020-05-05 22:16:34,625:INFO: saving the best model...
+2020-05-05 22:18:13,488:INFO: Epoch 33: 62.34112, Time is 52.77s
+2020-05-05 22:18:14,558:INFO: [dev set] Precision: 63.47, Recall: 24.63, F1: 35.49
+2020-05-05 23:31:29,665:INFO: mode: pre_train
+2020-05-05 23:31:29,672:INFO: device: cuda
+2020-05-05 23:31:29,672:INFO: seed: 2019
+2020-05-05 23:31:29,673:INFO: digit2zero: True
+2020-05-05 23:31:29,673:INFO: dataset: data
+2020-05-05 23:31:29,673:INFO: optimizer: adam
+2020-05-05 23:31:29,673:INFO: learning_rate: 5e-05
+2020-05-05 23:31:29,673:INFO: momentum: 0.0
+2020-05-05 23:31:29,673:INFO: l2: 1e-08
+2020-05-05 23:31:29,674:INFO: lr_decay: 0
+2020-05-05 23:31:29,674:INFO: batch_size: 32
+2020-05-05 23:31:29,674:INFO: num_epochs: 100
+2020-05-05 23:31:29,674:INFO: train_num: -1
+2020-05-05 23:31:29,674:INFO: dev_num: -1
+2020-05-05 23:31:29,674:INFO: num_outer_iterations: 10
+2020-05-05 23:31:29,674:INFO: bert_model_dir: bert-base-chinese-pytorch
+2020-05-05 23:31:29,674:INFO: max_len: 180
+2020-05-05 23:31:29,675:INFO: full_finetuning: True
+2020-05-05 23:31:29,675:INFO: clip_grad: 5
+2020-05-05 23:31:29,675:INFO: model_folder: saved_model
+2020-05-05 23:31:29,675:INFO: device_num: 0
+2020-05-05 23:31:29,675:INFO: 
+
+2020-05-05 23:31:29,675:INFO: Loading the datasets...
+2020-05-05 23:31:30,328:INFO: Building label idx ...
+2020-05-05 23:31:30,394:INFO: [Training Info] number of instances: 9999
+2020-05-05 23:31:34,489:INFO: [Training Info] The model will be saved to: saved_model
+2020-05-05 23:31:34,490:INFO: [Training Info] Training fold pre_train.
+2020-05-05 23:31:34,490:INFO: Initialized from pre-trained Model
+2020-05-05 23:31:34,492:INFO: loading weights file bert-base-chinese-pytorch/pytorch_model.bin
+2020-05-05 23:31:41,491:INFO: Weights of BertSoftMax not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2020-05-05 23:31:41,491:INFO: Weights from pretrained model not used in BertSoftMax: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2020-05-05 23:31:41,569:INFO: full finetuning
+2020-05-05 23:32:34,292:INFO: Epoch 1: 119.26274, Time is 52.72s
+2020-05-05 23:32:35,360:INFO: [dev set] Precision: 47.61, Recall: 14.55, F1: 22.28
+2020-05-05 23:32:35,360:INFO: saving the best model...
+2020-05-05 23:34:09,029:INFO: Epoch 2: 86.97974, Time is 53.03s
+2020-05-05 23:34:10,101:INFO: [dev set] Precision: 59.50, Recall: 20.83, F1: 30.86
+2020-05-05 23:34:10,102:INFO: saving the best model...
+2020-05-05 23:35:41,391:INFO: Epoch 3: 78.72463, Time is 52.98s
+2020-05-05 23:35:42,463:INFO: [dev set] Precision: 62.73, Recall: 22.88, F1: 33.53
+2020-05-05 23:35:42,464:INFO: saving the best model...
+2020-05-05 23:37:15,216:INFO: Epoch 4: 74.29617, Time is 52.46s
+2020-05-05 23:37:16,285:INFO: [dev set] Precision: 61.84, Recall: 25.58, F1: 36.19
+2020-05-05 23:37:16,286:INFO: saving the best model...
+2020-05-05 23:38:47,736:INFO: Epoch 5: 71.90880, Time is 51.25s
+2020-05-05 23:38:48,808:INFO: [dev set] Precision: 63.31, Recall: 25.73, F1: 36.59
+2020-05-05 23:38:48,809:INFO: saving the best model...
