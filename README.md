@@ -1,44 +1,14 @@
-## Better Modeling of Incomplete Annotation for Named Entity Recognition 
+## 面向部分标签数据的植物病虫害实体识别 
 
-This repository implements an LSTM-CRF model for named entity recognition. The model is same as the one by [Lample et al., (2016)](http://www.anthology.aclweb.org/N/N16/N16-1030.pdf) except we do not have the last `tanh` layer after the BiLSTM.
-The code provided is used for the paper "[Better Modeling of Incomplete Annotation for Named Entity Recognition](http://www.statnlp.org/research/ie/zhanming19naacl-ner.pdf)" published in 2019 Annual Conference of the North American Chapter of the Association for Computational Linguistics (*NAACL*).
-
-__NOTE: To extend a more general use case, a PyTorch version is implemented in this repo. The previous implementation using DyNet can be found in first release [here](https://github.com/allanj/ner_incomplete_annotation/tree/aa20c015b3f373ac4a1893e629ac8f2dd137faab). Right now, I have implemented a the "hard" approach as in the paper. "Soft" approach would be coming soon.__
-
-Our codebase is built based on the [pytorch LSTM-CRF](https://github.com/allanj/pytorch_lstmcrf) repo.
-
-
+这个仓库面向植物病虫害领域的实体识别任务。利用植物病虫害领域的文献摘要，构建部分标签数据，并通过一种结合经验分布和迁移学习的方法，提高部分标注数据在实体识别任务中的表现。目前我们实现了BiLstm-CRF模型和Bert-CRF模型，将该方法用于以上两种模型，分别在植物病虫害数据集和优酷视频数据集上进行了测试。
 ### Requirements
 * PyTorch >= 1.1
 * Python 3
+### 训练模型
+1.把预训练好的词向量放在BiLstm-partial-ner/data目录下，我们使用的是gigaword的50维词向量，[点击进行下载](https://github.com/allanj/ner_incomplete_annotation/tree/aa20c015b3f373ac4a1893e629ac8f2dd137faab)。
 
-Put your dataset under the data folder. You can obtain the `conll2003` and `conll2002` datasets from other sources. We have put our collected industry datasets `ecommerce` and `youku` under the data directory. 
+2.将预训练的msra模型放在Bert-partial-ner/saved_model/bert_pretrain目录下，[点击下载预训练模型](https://github.com/allanj/ner_incomplete_annotation/tree/aa20c015b3f373ac4a1893e629ac8f2dd137faab)。
 
-Also, put your embedding file under the data directory to run. You need to specify the path for the embedding file.
+3.把模型文件 {"bert_config.json", "pytorch_model.bin", "vocab.txt"} 放在/Bert-partial-ner/bert-base-chinese-pytorch目录下。
 
-### Running our approaches
-```bash
-python3 main.py --embedding_file ${PATH_TO_EMBEDDING} --dataset conll2003 --variant hard
-```
-Change `hard` to `soft` for our soft variant. 
-(This version actually also supports using contextual representation. But I'm still testing during this weekend.)
-
-
-### Future Work
-
-- [x] add soft approach
-- [ ] add other baselines.
-
-
-### Citation
-If you use this software for research, please cite our paper as follows:
-
-The implementation in our paper is implemented with DyNet. Check out our previous [release](https://github.com/allanj/ner_incomplete_annotation/tree/aa20c015b3f373ac4a1893e629ac8f2dd137faab).
-```
-@inproceedings{jie2019better,
-  title={Better Modeling of Incomplete Annotations for Named Entity Recognition},
-  author={Jie, Zhanming and Xie, Pengjun and Lu, Wei and Ding, Ruixue and Li, Linlin},
-  booktitle={Proceedings of NAACL},
-  year={2019}
-}
-```
+4.运行 "runBertModel.sh"
